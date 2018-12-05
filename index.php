@@ -8,7 +8,7 @@
     <body>
 
         <?php
-        //chama o arquivo verificando se já não foi chamado antes
+        
         require_once 'menu.php';
         ?>
 
@@ -20,6 +20,13 @@
 
 
         <?php
+        echo "Clínica de Oftamologia com mais de 25 anos de experiência, na cidade de TRES Lagoas,
+ criada pelos DRs. Jorge e Geraldo. Hoje com muita honra seguida por seus filhos na mesma profissão.
+              No início de suas carreiras seus procedimentos se dividiam em atendimentos na
+clínica e em salas alugadas no Hospital da cidade.
+              Através da nova visão dos filhos empreenderam em Clínica própria para procedimentos
+mais amplos e complexos"
+       
         ?>
     </body>
 </html>
