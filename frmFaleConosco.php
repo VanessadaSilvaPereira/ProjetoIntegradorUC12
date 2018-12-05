@@ -21,7 +21,10 @@
              <input type="text" name="txtEmail" size="91" value=""  required maxlength="100"/><br><br>
             
              <label>Mensagem: </label><br>
-             <textarea name="txtMensagem" required rows="10" cols="100"></textarea> <br><br>
+             <textarea name="txtMensagem" required rows="9" cols="100"></textarea> <br><br>
+             
+             <input type="submit" value="Enviar" >
+             
         
     </body>
 </html>
