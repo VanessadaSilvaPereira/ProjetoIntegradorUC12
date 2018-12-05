@@ -10,7 +10,7 @@ if(session_status() != PHP_SESSION_ACTIVE){
     
     <a href="especialidades.php"><button>Especialidades</button></a>
     
-    <a href="Medicos.php"><button>Médicos</button></a>
+    <a href="medicos.php"><button>Médicos</button></a>
    
 
     <a href="exames.php"><button>Exames</button></a>
@@ -18,7 +18,7 @@ if(session_status() != PHP_SESSION_ACTIVE){
  
 
     
-    |
+    
     <!--<form action="entrar.php" method="POST">
         <input type="text" name="txtLogin" required placeholder="E-mail ou CPF" />
         <input type="password" name="txtSenha" required placeholder="Senha: " />
