@@ -23,10 +23,10 @@
         echo "<h1><i>História da Clínica</i></h1><br><br><br>";
         
         echo "<h3>Clínica de Oftamologia com mais de 25 anos de experiência, na cidade de Tres Lagoas,
- criada pelos DRs. Jorge e Geraldo.
- <br><br>
- Hoje com muita honra seguida por seus filhos na mesma profissão.
- <br><br>
+criada pelos DRs. Jorge e Geraldo.
+<br><br>
+Hoje com muita honra seguida por seus filhos na mesma profissão.
+<br><br>
 No início de suas carreiras seus procedimentos se dividiam em atendimentos na
 clínica e em salas alugadas no Hospital da cidade.
 <br><br>
