@@ -15,7 +15,7 @@
 
 
         <br><br><br><br>
-        <h1 align="center"> <i>  Bem-vindo a Clínica Oftálmica  </i> </h1>
+        <h1 align="center"> <i>  Bem-vindo a Clínica Oftálmica </i> </h1>
 
 
 
