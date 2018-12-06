@@ -15,17 +15,17 @@
         
         <?php
       
-                    echo 'Dr. Jorge Becker <br> ';
-                    echo 'Dr. Geraldo Franco <br> ';
-                    echo 'Fundadores da Clinica Oftalmológica e Clínicos gerais <br><br> ';
+                    echo '<h3>Dr. Jorge Becker </h3> ';
+                    echo '<h3>Dr. Geraldo Franco </h3> ';
+                    echo 'Fundadores da Clinica Oftalmológica e Clínicos gerais. <br><br> ';
                     
-                    echo 'Dr. Vitor Becker <br> ';
-                    echo 'Filho do Doutor Jorge. <br> '
-                    . 'Especialista em Cirurgia de retina';
+                    echo '<h3>Dr. Vitor Becker</h3>';
+                    echo 'Filho do Doutor Jorge.'
+                    . 'Especialista em Cirurgia de retina.<br><br>';
                     
-                    echo 'Dr. Adalberto Franco <br><br>';
+                    echo '<h3>Dr. Adalberto Franco</h3>';
                     echo 'Filho do Doutor Geraldo.<br>'
-                    . 'Especialista em Cirurgia de catarata e reconstituição do globo ocular';
+                    . 'Especialista em Cirurgia de catarata e reconstituição do globo ocular.';
                    
                      
                  
