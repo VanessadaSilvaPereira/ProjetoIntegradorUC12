@@ -18,8 +18,17 @@
         <h1 align="center"> <i>  Bem-vindo a Clínica Oftálmica </i> </h1>
 
 
+           <h3> Como É Que Nós Vemos ?</h3>
+        <p> 1- A luz reflete-se nos objetos e segue em linha reta para o olho.<br><br>
+            2- A luz passa através da córnea, para dentro da pupila e através do cristalino.<br><br>
+            3- A córnea e o cristalino ajustam-se à luz (refratam) para que a retina foque.<br><br>
+            4- Os fotorrecetores na retina convertem a luz em impulsos elétricos.<br><br>
+            5- Os impulsos elétricos atravessam o nervo ótico até ao cérebro.<br><br>
+            6- O cérebro processa os sinais para criar uma imagem.<br><br></p>
 
         <?php
+     
+       
         echo "<h1><i>História da Clínica</i></h1><br><br><br>";
         
         echo "<h3>Clínica de Oftamologia com mais de 25 anos de experiência, na cidade de Tres Lagoas,
@@ -32,9 +41,12 @@ clínica e em salas alugadas no Hospital da cidade.
 <br><br>
 Através da nova visão dos filhos empreenderam em Clínica própria para procedimentos
 mais amplos e complexos</h3>"
+        
        
         ?>
-
+        
+        
+      
         
        
     </body>
