@@ -9,4 +9,25 @@ class FaleConoscoDAO {
                 . " '" . $faleConosco->getMensagem() . "' ) ";
         Conexao::executar($sql);
     }
+    public static function getFaleConosco() {
+        $sql = "SELECT * FROM faleConosco";
+        $result = Conexao::consultar($sql);
+
+        $lista = new ArrayObject();
+        if ($result != NULL) {
+            while (list($_id, $_nome, $_email, $_mensagem) = mysqli_fetch_row($result)) {
+                
+
+                $faleConosco = new FaleConosco();
+                $faleConosco->setId($_id);
+                $faleConosco->setNome($_nome);
+                $faleConosco->setEmail($_email);
+                $faleConosco->setMensagem($_mensagem);
+                $lista->append($faleConosco);
+
+            }
+        }
+        return $lista;
+    }
+    
 }

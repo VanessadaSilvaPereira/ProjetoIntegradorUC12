@@ -3,7 +3,7 @@
 class FaleConosco {
     private $id, $nome, $email, $mensagem;
     
-    function __construct($id, $nome, $email, $mensagem) {
+    function __construct($id = NULL, $nome = NULL, $email = NULL , $mensagem = NULL) {
         $this->id = $id;
         $this->nome = $nome;
         $this->email = $email;

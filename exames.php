@@ -55,8 +55,7 @@
         
         <h3>Topografia Corneana:</h3>
         <p> Por meio desse exame, é possível fazer o mapeamento topográfico do relevo da córnea e determinar a curvatura corneana.<br>
-        Ele é indicado a pacientes pré-operatórios de cirurgias corretivas — miopia, hipermetropia, astigmatismo e cataratas —,
-        afinal, é importante conhecer erros refrativos da córnea antes de ir para a mesa de operação.<br>
+        Ele é indicado a pacientes pré-operatórios de cirurgias corretivas — miopia, hipermetropia, astigmatismo e cataratas.<br>
         Esse exame é essencial para identificar doenças de maneira precoce e também é importante para pacientes em adaptação de lentes de contato.<br><br></p>
         
         
@@ -68,7 +67,7 @@
         
         <h3>Teste do olhinho:</h3>
         <p> Feito em bebês ainda nas primeiras semanas de vida é um exame que pode detectar doenças como catarata,
-            glaucoma congênito, tumores, inflamações intraoculares e hemorragias.
+            glaucoma congênito, tumores, inflamações intraoculares e hemorragias.<br>
             Com o oftalmoscópio o oftalmologista detecta o reflexo da retina que, 
             quando saudável irá refletir tons de vermelho, laranja ou amarelo.<br><br></p>
         
@@ -78,9 +77,6 @@
        o médico solicitará exames complementares — ultrassom, topografia, tonometria, tomografias, angiografia, entre outros.<br>
        Por meio desses exames oftalmológicos, o médico pode chegar a um diagnóstico detalhado e, assim, escolher o melhor tratamento para devolver a saúde ocular do paciente.<br>
        Em caso de algum dos sintomas citados, é necessário procurar um médico para um tratamento adequado.</p>
-        
-       
-        
         
         
     </body>
