@@ -28,5 +28,6 @@ clínica e em salas alugadas no Hospital da cidade.
 mais amplos e complexos"
        
         ?>
+        <a href="dao/clsConexao.php"></a>
     </body>
 </html>
