@@ -37,19 +37,19 @@ class Conexao {
     }
     
     
-     public static function executarComRetornoId($sql) {
+    // public static function executarComRetornoId($sql) {
 
-        $conn = self::abrir();
-        $id = 0;
+       // $conn = self::abrir();
+       // $id = 0;
         
-        if ($conn) {
-       mysqli_query($conn, $sql);
-       $id = mysqli_insert_id($conn);
+      //  if ($conn) {
+      // mysqli_query($conn, $sql);
+      // $id = mysqli_insert_id($conn);
       
-            self::fechar($conn);
-        }
-        return $id;
-    }
+           // self::fechar($conn);
+       // }
+       // return $id;
+    //}
 
 
     public static function consultar($sql) {
