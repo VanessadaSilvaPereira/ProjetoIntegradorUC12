@@ -8,11 +8,8 @@
     <body>
 
         <?php
-        
         require_once 'menu.php';
         ?>
-
-
 
         <br><br><br><br>
           
@@ -22,12 +19,15 @@
         <img  src="inicial.jpg" height="250" align="center"><br>
 
         <h1><i> Como É Que Nós Vemos ?</i></h1>
+
+
         <p> 1- A luz reflete-se nos objetos e segue em linha reta para o olho.<br><br>
             2- A luz passa através da córnea, para dentro da pupila e através do cristalino.<br><br>
             3- A córnea e o cristalino ajustam-se à luz (refratam) para que a retina foque.<br><br>
             4- Os fotorrecetores na retina convertem a luz em impulsos elétricos.<br><br>
             5- Os impulsos elétricos atravessam o nervo ótico até ao cérebro.<br><br>
             6- O cérebro processa os sinais para criar uma imagem.<br><br></p>
+
 
        
        <h1><i>História da Clínica</i></h1>
@@ -42,12 +42,9 @@ clínica e em salas alugadas no Hospital da cidade.
 <br><br>
 Através da nova visão dos filhos empreenderam em Clínica própria para procedimentos
 mais amplos e complexos
-        
-       
-     
-       
+ 
     </body>
-     <?php
-        require_once './frmFaleConosco.php';
-        ?>
+    <?php
+    require_once './frmFaleConosco.php';
+    ?>
 </html>
