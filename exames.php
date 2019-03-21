@@ -4,14 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Exames</title>
-        
+        <link href="CSS/Estilos.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <?php
         require_once 'menu.php';
         ?>
-        <br><br><br><br>
-        <h1 align="center"> <i>Exames</i> </h1>
+        
+        <div class="tituloPagina">Exames</div>
         
         
         

@@ -5,10 +5,16 @@ class Conexao {
 
     private static function abrir() {
       
-        $banco = "m171_spaceHazard";
-        $local = "senacinfo-db";
+        $banco = "m171_spacehazard";
+        /*$local = "senacinfo-db";
         $usuario = "inf_m171";
-        $senha = "senacrs";
+        $senha = "senacrs";*/
+        $local = "localhost";
+        $usuario = "root";
+        $senha = "";
+        
+        
+        
 
       
         $conn = mysqli_connect($local, $usuario, $senha, $banco);

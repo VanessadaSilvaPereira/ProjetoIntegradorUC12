@@ -4,16 +4,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Especialidades</title>
+        <link href="CSS/Estilos.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <?php
         require_once 'menu.php';
         ?>
-        <br><br><br><br>
-        <h1 align="center"> <i>Especialidades</i> </h1>
+        
+        <div class="tituloPagina" >Especialidades</div>
     </body>
     Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica
-    Dr. Jorge  ... Dr. Vitor Filho
+    Dr. Jorge  ... Dr. Vitor Filho<br><br>
 
 
     Dr.Jorge  e DR Geraldo   : Oftalmologia: O oftalmologista é o médico 
@@ -24,7 +25,7 @@
     (clinicamente ou cirurgicamente), promovendo a
     prevenção de patologias oculares e prescrevendo 
     lentes corretivas para otimizar a visão para longe 
-    e perto.
+    e perto.<br><br>
 
 
     Dr. Adalberto: Especilista em cirurgia da catarata :  A Cirurgia de Catarata consiste na quebra
