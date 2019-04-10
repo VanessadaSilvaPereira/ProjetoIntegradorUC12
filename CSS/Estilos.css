@@ -38,7 +38,7 @@
          
        #historiaClinica{
            border-radius: 15px;           padding: 15px;
-           border:double white 5px;       margin-top:100px;
+           border:double white 5px;       margin-top:15%;
        }
        
         /*Página de Médicos*/
@@ -92,26 +92,28 @@
             margin-bottom: 15px;
         }
         #botaoFaleConosco{
-            background-color:lightsteelblue;
-           color: white;
-           font-size: 18px;
+            background-color:whitesmoke;
+           color: black;
+           font-size: 20px;
            font-family: optima;
         }
         
         #formulario{
             
-            background-color:whitesmoke;
+            background-color:black;
             padding-left: 15px;
             padding-bottom:15px;
             width:99%;
             position: absolute;
-            margin-top: 20%;
+            margin-top: 0%;
             left: 0;
+            color:white;
+            font-size: 16px;
           
         }
         #contato{
-            background-color: whitesmoke;
-            padding: 15px;
+            background-color: transparent;
+            padding: 5%;
             font-size:16px;
             font-family:optima;
             margin: 20px;
@@ -120,6 +122,8 @@
             align-self: flex-end;
             position: relative;
             left: 750px;
-            top: 250px;
+            color:white;
+            
+            
         }
-        
+      
