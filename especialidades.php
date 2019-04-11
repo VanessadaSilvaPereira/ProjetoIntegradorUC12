@@ -13,8 +13,8 @@
         
         <div class="tituloPagina" >Especialidades</div>
     </body>
-    Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica
-    Dr. Jorge  ... Dr. Vitor Filho<br><br>
+    <div style="margin: 20px; color:red;">Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica</div>
+    <div>Dr. Jorge  ... Dr. Vitor Filho</div>
 
 
     Dr.Jorge  e DR Geraldo   : Oftalmologia: O oftalmologista é o médico 

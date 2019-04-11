@@ -2,11 +2,11 @@
     Created on : 10/03/2019, 08:14:26
     Author     : pc
 */
-      body{background-color: lightblue;
+      body{background-color: buttonface;
       }  
       
        button{
-           background-color: lightblue;   color: white;
+           background-color: buttonface;   color: white;
            width: 150px;                  height: 30px;
            font-size: 18px;               font-family: optima;
            border: none;
@@ -18,6 +18,7 @@
            text-decoration: none;
            font-size: 20px;        position: absolute;
            width: 150px;           height: 60px;
+           
        }
        
        #imagemInicial{
@@ -26,10 +27,12 @@
            position: absolute;    top: 125px;
            border-radius: 15px;   padding: 4px;
            border-right: 15px;
+           border-left: 20px;
        }
        
          #comoVemos{
-           width: 46%;           top:77px;
+           width: 35%;     height: 250px;
+           top:65px;
            position: relative;   left: 560px;
            font-size: 16px;      font-family: optima;
            padding: 5px;         background-color: steelblue;
@@ -45,40 +48,46 @@
         #medico01{width: 96%;
             height: 350px;
             position: relative;
-            background-color:PaleTurquoise;
+            background-color:buttonface;
             padding-left: 15px;
             border-radius: 15px;
-            color:white}
+            color:black;
+           border: black double 5px;
+        }
         
         #medico02{
            position: relative;
            width: 48%;
-           background-color:PaleTurquoise;
+           background-color:buttonface;
            left: 500px;
            top: -310px;
-           color: white;
+           color: black;
         }
         
         #medico03{
             position: relative;
-            background-color:PaleTurquoise;
+            background-color:buttonface;
             margin-top:50px;
             margin-bottom: 50px;
             border-radius: 15px;
-            color: white;
+            color: black;
             padding-left: 15px;
+            border: black double 5px;
+           
         }
         
         #medico04{position: relative;
-            background-color:PaleTurquoise;
+            background-color:buttonface;
             border-radius: 15px;
-            color:white;
+            color:black;
             padding-left: 15px;
+             border: black double 5px;
         }
         
         #botoesMenu{margin-top: 30px;
             margin-left:300px;
-            position: relative;}
+            position: relative;
+       }
         
         .tituloPagina{
             font-family: optima;
@@ -105,7 +114,7 @@
             padding-bottom:15px;
             width:99%;
             position: absolute;
-            margin-top: 0%;
+            margin-top: 10%;
             left: 0;
             color:white;
             font-size: 16px;
@@ -114,7 +123,7 @@
         #contato{
             background-color: transparent;
             padding: 5%;
-            font-size:16px;
+            font-size:20px;
             font-family:optima;
             margin: 20px;
             height: 210px;
@@ -123,7 +132,6 @@
             position: relative;
             left: 750px;
             color:white;
-            
-            
+            margin-top: 10%;
         }
       
