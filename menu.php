@@ -8,6 +8,8 @@
     
     <a href="medicos.php"><button>Médicos</button></a>
 
-    <a href="exames.php"><button>Exames</button></a></div>
+    <a href="exames.php"><button>Exames</button></a>
+   
+   <a href="fiqueDeOlho.php"><button>Fique de Olho</button></a></div>
     
 </header>
