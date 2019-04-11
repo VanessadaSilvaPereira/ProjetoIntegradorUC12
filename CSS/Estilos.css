@@ -7,8 +7,8 @@
       
        button{
            background-color: buttonface;   color: white;
-           width: 150px;                  height: 30px;
-           font-size: 18px;               font-family: optima;
+           width: 160px;                  height: 30px;
+           font-size: 25px;               font-family: optima;
            border: none;
        }
        
@@ -16,32 +16,40 @@
        #inicioBotaoBemVindo{
            padding: 15px 0px 0px 40px;
            text-decoration: none;
-           font-size: 20px;        position: absolute;
-           width: 150px;           height: 60px;
+           font-size: 30px;        position: absolute;
+           width: 240px;           height: 60px;
            
        }
        
        #imagemInicial{
            background-color: darkblue;
            width: auto;           height: auto;
-           position: absolute;    top: 125px;
+           position: absolute;    top: 150px;
            border-radius: 15px;   padding: 4px;
            border-right: 15px;
-           border-left: 20px;
+           border-left: 15px;
+           margin-left: 50px;
        }
        
          #comoVemos{
            width: 35%;     height: 250px;
-           top:65px;
            position: relative;   left: 560px;
            font-size: 16px;      font-family: optima;
            padding: 5px;         background-color: steelblue;
-           color:white
+           color:white;
+           margin-top: 90px;
+           margin-left: 50px;
          }
          
        #historiaClinica{
+           color: darkblue;
            border-radius: 15px;           padding: 15px;
            border:double white 5px;       margin-top:15%;
+           font-size:20px;
+       }
+       #TituloHistoriaClinica{
+           text-align: center;
+           margin-bottom: 30px;
        }
        
         /*Página de Médicos*/
@@ -135,6 +143,13 @@
             margin-top: 10%;
         }
         .divespecialidades{
+            margin: 20px;
+            width: 75%;
+            font-size: 15px;
+          
+               
+        }
+        .divexames{
             margin: 20px;
             width: 75%;
             font-size: 15px;
