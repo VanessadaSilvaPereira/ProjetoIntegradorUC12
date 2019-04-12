@@ -8,12 +8,16 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+         <link href="CSS/Estilos.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+ <?php
+        require_once './menu.php';
+        ?>
       
 
 
-           Você já parou para pensar na quantidade de doenças dos olhos que existem? 
+        <div> Você já parou para pensar na quantidade de doenças dos olhos que existem? 
            Apesar do número elevado de problemas   que podem afetar nossa visão,  só 
            costumamos tomar alguma ação quando ela já está prejudicada de cerca forma.
                          
@@ -63,6 +67,10 @@ tratá-la com limpezas recorrentes, compressas de água morna ou remédios recei
             Eventualmente, xampus com pH neutro podem dar conta do recado também.
             Lentes de contato sujas também podem causar blefarite. Então, caso você use lentes, 
 mantenha-as sempre bem limpas.
+        </div>
+
+
+       
 
     </body>
 </html>

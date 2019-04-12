@@ -13,14 +13,13 @@
         
         <div class="tituloPagina" >Especialidades</div>
     </body>
-<<<<<<< HEAD
+
     <div class="divespecialidades" >Dr. Geraldo...</div>
     <div class="divespecialidades" >Dr. Adalberto filho Cirurgia oftálmica</div>
     <div class="divespecialidades" >Dr. Jorge  ...Dr. Vitor Filho</div>
-=======
-    <div style="margin: 20px; color:red;">Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica</div>
+    <div class="divespecialidades" >Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica</div>
     <div>Dr. Jorge  ... Dr. Vitor Filho</div>
->>>>>>> 538f6a3320c232821d3b8f55839342d20da3b292
+
 
 
     <div class="divespecialidades" >Dr.Jorge  e DR Geraldo: Oftalmologia:</div>

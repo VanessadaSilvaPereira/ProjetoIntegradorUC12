@@ -28,7 +28,7 @@
             </div>
 
        
-        <div id="historiaClinica"><h1><i>História da Clínica</i></h1>
+        <div id="historiaClinica"><div id="TituloHistoriaClinica"><h1><i>História da Clínica</div></i></h1>
         
             Clínica de Oftamologia com mais de 25 anos de experiência.<br><br>
             Localizada na cidade de Três Lagoas.<br><br>

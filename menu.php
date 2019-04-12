@@ -1,6 +1,6 @@
 
 <header> 
-   <div><a id="inicioBotaoBemVindo" href="index.php"<i>Bem-vindo a Clínica Oftálmica</i></a></div>
+   <div><a id="inicioBotaoBemVindo" href="index.php"<i>Bem-vindo a JG Clínica Oftalmo</i></a></div>
     
     <div id="botoesMenu" ><a href="index.php"><button>Início</button></a>
     
