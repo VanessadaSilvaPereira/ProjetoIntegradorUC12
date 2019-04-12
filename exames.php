@@ -19,7 +19,7 @@
         <div style="margin: 20px"> O mapeamento de retina, também conhecido como exame de fundo de olho ou fundoscopia.<br>
                   É um exame em que o oftalmologista consegue observar os nervos, 
                  vasos sanguíneos e o tecido do olho responsável pela captação das imagens, 
-                 podendo detectar alterações e permitir a indicação do tratamento. </div>
+                 podendo detectar alterações e permitir a indicação do tratamento.</div>
         
         <h3>Exame de Refração:</h3>
         <div style="margin: 20px"> Também conhecido como exame de visão, é o teste mais comum realizado por oftalmologistas,

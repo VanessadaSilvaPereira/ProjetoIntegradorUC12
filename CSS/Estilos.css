@@ -34,7 +34,7 @@
          #comoVemos{
            width: 35%;     height: 250px;
            position: relative;   left: 560px;
-           font-size: 16px;      font-family: optima;
+           font-size: 20px;      font-family: optima;
            padding: 5px;         background-color: steelblue;
            color:white;
            margin-top: 90px;
@@ -44,7 +44,7 @@
        #historiaClinica{
            color: darkblue;
            border-radius: 15px;           padding: 15px;
-           border:double white 5px;       margin-top:15%;
+           border:double white 5px;       margin-top:5%;
            font-size:20px;
        }
        #TituloHistoriaClinica{
@@ -99,7 +99,7 @@
         
         .tituloPagina{
             font-family: optima;
-            font-size: 30px;
+            font-size: 40px;
             font-style: italic;
             text-align: center;
             padding: 5px;
@@ -113,6 +113,9 @@
            color: black;
            font-size: 20px;
            font-family: optima;
+        }
+        #faleconoscotitulo{
+            text-align: left;
         }
         
         #formulario{
@@ -145,14 +148,14 @@
         .divespecialidades{
             margin: 20px;
             width: 75%;
-            font-size: 15px;
+            font-size: 18px;
           
                
         }
         .divexames{
             margin: 20px;
             width: 75%;
-            font-size: 15px;
+            font-size: 18px;
           
                
         }
