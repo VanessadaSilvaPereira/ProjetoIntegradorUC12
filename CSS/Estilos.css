@@ -60,7 +60,7 @@
             padding-left: 15px;
             border-radius: 15px;
             color:black;
-           border: black double 5px;
+            border: black double 5px;
         }
         
         #medico02{
@@ -156,6 +156,4 @@
             margin: 20px;
             width: 75%;
             font-size: 18px;
-          
-               
         }
