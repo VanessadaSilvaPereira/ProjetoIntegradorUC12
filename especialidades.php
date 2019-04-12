@@ -94,6 +94,8 @@
     <div class="divespecialidades" > O oftalmologista especializado em retina (chamado também de retinólogo) é um profissional que faz 
     seis anos de medicina, mais três de oftalmologia e, geralmente faz mais dois anos se dedicando a retina,
     para depois por estar apto a atender os casos desta especialidade dentro da oftalmologia.</div>
+    
+  
 
     <?php
     require_once './frmFaleConosco.php';

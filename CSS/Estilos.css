@@ -157,3 +157,7 @@
             width: 75%;
             font-size: 18px;
         }
+        
+        .limparFloat{
+    clear: both;
+}

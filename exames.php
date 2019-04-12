@@ -89,6 +89,8 @@
         
         </div>
         
+          <div class="limparFloat"></div>
+        
         <script>
                 
             $(".flip1").click(function (){
@@ -163,14 +165,15 @@
                 margin-top: 50px;
                 position:relative;
                 margin-bottom: auto;
-              
+                float: left;
+                margin-right: 20%;
             }
+            
             #div02{
                 margin-top: 80px;
                 position: relative;
-                left: 50%;
                 margin-bottom: auto;
-              
+                float:left;
             }
             
         </style>
