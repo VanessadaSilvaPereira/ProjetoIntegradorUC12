@@ -1,10 +1,10 @@
 
         
         
-        
+       
 <div id="formulario">
             
-            <div class="tituloPagina">Fale Conosco</div>
+    <div class="tituloPagina" id="faleconoscotitulo">Fale Conosco</div>
             
             
                 
@@ -13,7 +13,10 @@
             <input type="text" name="txtNome" size="91" value=""  required maxlength="100"/><br><br>
             
              <label>E-mail: </label>
-             <input type="text" name="txtEmail" size="91" value=""  required maxlength="100"/><br><br>
+             <input type="text" name="txtEmail" size="90" value=""  required maxlength="100"/><br><br>
+             
+             <label>Assunto: </label>
+             <input type="text" name="txtAssunto" size="89" value=""  required maxlength="100"/><br><br>
             
              <label>Mensagem: </label><br>
              <textarea name="txtMensagem" required rows="9" cols="100"></textarea> <br><br>

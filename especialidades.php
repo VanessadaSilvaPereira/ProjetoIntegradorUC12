@@ -13,14 +13,13 @@
         
         <div class="tituloPagina" >Especialidades</div>
     </body>
-<<<<<<< HEAD
+
     <div class="divespecialidades" >Dr. Geraldo...</div>
     <div class="divespecialidades" >Dr. Adalberto filho Cirurgia oftálmica</div>
     <div class="divespecialidades" >Dr. Jorge  ...Dr. Vitor Filho</div>
-=======
-    <div style="margin: 20px; color:red;">Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica</div>
-    <div>Dr. Jorge  ... Dr. Vitor Filho</div>
->>>>>>> 538f6a3320c232821d3b8f55839342d20da3b292
+    <div class="divespecialidades" >Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica</div>
+    <div class="divespecialidades">Dr. Jorge  ... Dr. Vitor Filho</div>
+
 
 
     <div class="divespecialidades" >Dr.Jorge  e DR Geraldo: Oftalmologia:</div>
@@ -48,9 +47,9 @@
     . (LenSx®) para realização de algumas etapas da cirurgia 
     . (incisões, capsulorrexe, nucleofragmentação)
     . com benefício de dar mais precisão, previsibilidade
-    e reprodutibilidade a cirurgia de catarata.'</div>
+    e reprodutibilidade a cirurgia de catarata.</div>
 
-     <div class="divespecialidades" >: Reconstituição do globo ocular:
+     <div class="divespecialidades" > Reconstituição do globo ocular:
          Os procedimentos cirúrgicos que ajudam a recuperar a superfície ocular são:</div>
 
     <div class="divespecialidades" >TRANSPLANTE DE CÉLULAS TRONCO (TRANSPLANTE DE LIMBO)</div>
