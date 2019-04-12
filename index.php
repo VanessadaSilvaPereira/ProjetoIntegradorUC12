@@ -12,8 +12,8 @@
         require_once 'menu.php';
         ?>
 
-     
-        <div id="imagemInicial"><img src="imagens/inicial.jpg" height="250" align="center"></div>
+
+        <div style="background-color:cornflowerblue; width: auto; margin-top:5%;" ><div id="imagemInicial"><img src="imagens/inicial.jpg" height="250" align="center"></div></div>
 
         <div id="comoVemos"> <h2>Como é que nós vemos ?</h2>
 
@@ -25,21 +25,22 @@
                 <li>Os impulsos elétricos atravessam o nervo ótico até ao cérebro.</li>
                 <li>O cérebro processa os sinais para criar uma imagem.</li>
             </ul>
-            </div>
+            
+        </div>
+        <div class="limparFloat"></div>
 
-       
-        <div id="historiaClinica"><h1><i>História da Clínica</i></h1>
-        
-            Clínica de Oftamologia com mais de 25 anos de experiência.<br><br>
-            Localizada na cidade de Três Lagoas.<br><br>
-            Foi Fundade pelos DRs. Jorge e Geraldo.<br><br>
-            Hoje seguida por seus filhos na mesma profissão.<br><br>
-No início de suas carreiras, seus procedimentos se dividiam em atendimentos na
-clínica e em salas alugadas no Hospital da cidade.
-<br><br>
-Através da nova visão dos filhos empreenderam em Clínica própria para procedimentos
-mais amplos e complexos.</div>
- 
+
+        <div id="historiaClinica"><div id="TituloHistoriaClinica"><h1><i>História da Clínica</div></i></h1>
+
+                <p>Clínica de Oftamologia com mais de 25 anos de experiência.
+                    Localizada na cidade de Três Lagoas.</p>
+                <p>Foi Fundade pelos DRs. Jorge e Geraldo.
+                    Hoje seguida por seus filhos na mesma profissão.</p>
+                <p>No início de suas carreiras, seus procedimentos se dividiam em atendimentos na
+                    clínica e em salas alugadas no Hospital da cidade.</p>
+                <p>Através da nova visão dos filhos empreenderam em Clínica própria para procedimentos
+                    mais amplos e complexos.</p></div>
+
     </body>
     <?php
     require_once './frmFaleConosco.php';
