@@ -18,7 +18,7 @@
     <div class="divespecialidades" >Dr. Adalberto filho Cirurgia oftálmica</div>
     <div class="divespecialidades" >Dr. Jorge  ...Dr. Vitor Filho</div>
     <div class="divespecialidades" >Dr. Geraldo... Dr. Adalberto filho Cirurgia oftálmica</div>
-    <div>Dr. Jorge  ... Dr. Vitor Filho</div>
+    <div class="divespecialidades">Dr. Jorge  ... Dr. Vitor Filho</div>
 
 
 
@@ -47,9 +47,9 @@
     . (LenSx®) para realização de algumas etapas da cirurgia 
     . (incisões, capsulorrexe, nucleofragmentação)
     . com benefício de dar mais precisão, previsibilidade
-    e reprodutibilidade a cirurgia de catarata.'</div>
+    e reprodutibilidade a cirurgia de catarata.</div>
 
-     <div class="divespecialidades" >: Reconstituição do globo ocular:
+     <div class="divespecialidades" > Reconstituição do globo ocular:
          Os procedimentos cirúrgicos que ajudam a recuperar a superfície ocular são:</div>
 
     <div class="divespecialidades" >TRANSPLANTE DE CÉLULAS TRONCO (TRANSPLANTE DE LIMBO)</div>
