@@ -17,13 +17,13 @@ and open the template in the editor.
       
 
 
-        <div> Você já parou para pensar na quantidade de doenças dos olhos que existem? 
+        <div style="margin-top: 50px; font-size: 18px;"> Você já parou para pensar na quantidade de doenças dos olhos que existem? 
            Apesar do número elevado de problemas   que podem afetar nossa visão,  só 
            costumamos tomar alguma ação quando ela já está prejudicada de cerca forma.
                          
                           
                          
-                       As 19 doenças dos olhos mais comuns que existem 
+                       As 19 doenças dos olhos mais comuns que existem
 
 
 
