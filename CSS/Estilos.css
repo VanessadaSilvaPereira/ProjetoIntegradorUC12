@@ -1,60 +1,48 @@
 
 body{
-background-color:aliceblue;
+/*background-image: url(../imagens/fundo2.jpg);*/
+background-repeat: no-repeat;
+background-size:100%;
+margin: 0;
+
 }  
+hr{
+    height: 1%;
+    background-color: black;
+}
 button{
-    background-color:transparent;   color:white;
+    background-color:transparent;   color:black;
     width: 160px;                  height: 35px;
     font-size: 25px;               font-family:serif;
     border: none;
-    margin-top: 20px;
+    margin-top:0;
 }
 /*Página inicial*/
-#inicioBotaoBemVindo{
-    margin-top: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 35px;        
-    position: absolute;
-    width: 300px;
-    height: 150px;
-    background-size:300px;
-    background-repeat: no-repeat;
-    /*background-image: url(../imagens/inicial.jpg);*/
-    color:white;
-}
 
 #comoVemos{
-    margin-left:1%;
-    margin-top: -50%;
-    width:30%;    
+    width:50%;    
     height:auto;
     font-size: 22px;          
-    background-color:gray;
+    background-color:darkturquoise;
     color:white;
     padding: 2%;
-    border-radius: 25%;
-    float:left;
+    float:right;
+    margin-top: 10%;
     
 }
 
 #historiaClinica{
-    margin-top: 5%;
-    text-align:left;
+    
+    padding: 5%;
+    text-align:center;
     width: 500px;
     height: 700px;
-    padding: 5%;
     color:black;
     font-size:22px;
-    margin-left: 40%;
-    background-size:600px;
-    background-image: url(../imagens/pergaminho.png);
-    background-repeat: no-repeat;
     float:left;
 }
 #TituloHistoriaClinica{
     text-align: center;
-    margin-bottom: 30px;
 }
 
 /*Página de Médicos*/
@@ -95,43 +83,48 @@ button{
 #medico04{
     width: 80%;
     position: relative;
-
     color:black;
     margin:2%;
     padding: 2%;
 }
 .botoesMenu{
-    /*margin-top:20px;*/
+     color: black;
 }
 #botoesMenu{
     margin-top: 30px;
     margin-left:300px;
     position: relative;
+   
 }
 
 .tituloPagina{
     font-family: optima;
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
     text-align: center;
-    padding: 5px;
     margin-right: 300px;
     margin-left: 300px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 #botaoFaleConosco{
-    background-color:whitesmoke;
-    color: black;
-    font-size: 20px;
+    background-color:darkcyan;
+    color: white;
+    font-size: 25px;
     font-family: optima;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 40px;
 }
 #faleconoscotitulo{
     text-align: left;
+    padding: 0;
 }
-
+.input{
+    height:22px;
+}
 #formulario{
-    background-color:black;
+    background-color:darkturquoise;
     padding: 1%;
     width:98%;
     position: absolute;
@@ -149,7 +142,7 @@ button{
     width: 20%;
     align-self: flex-end;
     position: relative;
-    left: 750px;
+    left: 800px;
     color:white;
     margin-top: 15%;
 }
@@ -163,7 +156,6 @@ button{
     width: 75%;
     font-size: 18px;
 }
-
 .limparFloat{
     clear: both;
 }
