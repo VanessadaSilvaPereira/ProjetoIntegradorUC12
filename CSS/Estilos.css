@@ -1,61 +1,56 @@
-/* 
-    Created on : 10/03/2019, 08:14:26
-    Author     : pc
-*/
-body{background-color:aliceblue;
-}  
 
+body{
+background-color:aliceblue;
+}  
 button{
-    background-color:transparent;   color:black;
-    width: 160px;                  height: 30px;
+    background-color:transparent;   color:white;
+    width: 160px;                  height: 35px;
     font-size: 25px;               font-family:serif;
     border: none;
+    margin-top: 20px;
 }
-
 /*Página inicial*/
 #inicioBotaoBemVindo{
-    padding: 15px 0px 0px 40px;
+    margin-top: 50px;
+    text-align: center;
     text-decoration: none;
-    font-size: 30px;        position: absolute;
-    width: 240px;           height: 60px;
-
-}
-
-#imagemInicial{
-    position:relative;
-    
-    background-color: black;
-    width: 550px;             
-    border-radius: 35px;   
-    padding: 10px;
-    border-right: 15px;
-    border-left: 15px;
-    margin-left: 30%;
-    
-    
-    
+    font-size: 35px;        
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-size:300px;
+    background-repeat: no-repeat;
+    /*background-image: url(../imagens/inicial.jpg);*/
+    color:white;
 }
 
 #comoVemos{
-    position:relative;
-    width: 100%;     
+    margin-left:1%;
+    margin-top: -50%;
+    width:30%;    
     height:auto;
     font-size: 22px;          
-    background-color:black;
+    background-color:gray;
     color:white;
     padding: 2%;
+    border-radius: 25%;
+    float:left;
+    
 }
 
 #historiaClinica{
+    margin-top: 5%;
+    text-align:left;
     width: 500px;
+    height: 700px;
+    padding: 5%;
     color:black;
     font-size:22px;
-    text-align: center;
-    border: black dotted 2px;
-    margin-left: 30%;
-    padding: 5%;
-    margin-top: 2%;
-
+    margin-left: 40%;
+    background-size:600px;
+    background-image: url(../imagens/pergaminho.png);
+    background-repeat: no-repeat;
+    float:left;
 }
 #TituloHistoriaClinica{
     text-align: center;
@@ -67,10 +62,10 @@ button{
     width: 60%;
     height: 350px;
     position: relative;
-
     color:black;
     margin-left: 30%;
 }
+
 .textoMedico{
     font-size:20px;
 
@@ -105,7 +100,9 @@ button{
     margin:2%;
     padding: 2%;
 }
-
+.botoesMenu{
+    /*margin-top:20px;*/
+}
 #botoesMenu{
     margin-top: 30px;
     margin-left:300px;
@@ -135,13 +132,13 @@ button{
 
 #formulario{
     background-color:black;
-    padding: 2%;
+    padding: 1%;
     width:98%;
     position: absolute;
     margin-top: 10%;
     left: 0;
     color:white;
-    font-size: 16px;
+    font-size: 20px;
 }
 #contato{
     background-color: transparent;
@@ -154,7 +151,7 @@ button{
     position: relative;
     left: 750px;
     color:white;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .divespecialidades{
     margin: 20px;

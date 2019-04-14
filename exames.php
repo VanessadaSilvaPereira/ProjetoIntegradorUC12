@@ -162,7 +162,7 @@
                 margin:15px;
             }
             #div01{
-                margin-left: 15%;
+                margin-left: 10%;
                 margin-top: 50px;
                 position:relative;
                 margin-bottom: auto;
@@ -172,7 +172,7 @@
             }
             
             #div02{
-                margin-left: 5%;
+                margin-left: 2%;
                 margin-top: 50px;
                 position: relative;
                 margin-bottom: auto;
