@@ -5,9 +5,22 @@
         <group>
 <<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/especialidades.php</file>
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/PHPMailer/VERSION</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/menu.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/fiqueDeOlho.php</file>
+=======
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/controller/salvarFaleConosco.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/dao/clsFaleConoscoDAO.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/index.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/inicial.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/fundo-de-madeira-azul-claro_2221-839.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/menu.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/exames.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/medicos.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/CSS/Estilos.css</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/admin/entrar.php</file>
+>>>>>>> 2f42bf15bcd40f3f18600f9dbffac7777a414f82
 =======
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/medico%202.jpg</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/fundo-de-madeira-azul-claro_2221-839.jpg</file>

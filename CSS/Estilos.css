@@ -1,6 +1,6 @@
 
 body{
-/*background-image: url(../imagens/fundo2.jpg);*/
+/*background-color:aqua; */
 background-repeat: no-repeat;
 background-size:100%;
 margin: 0;
@@ -11,7 +11,7 @@ hr{
     background-color: black;
 }
 button{
-    background-color:transparent;   color:black;
+    background-color:transparent;   color:white;
     width: 160px;                  height: 35px;
     font-size: 25px;               font-family:serif;
     border: none;
@@ -32,17 +32,17 @@ button{
 }
 
 #historiaClinica{
-    
+    margin-top: 5%;
     padding: 5%;
-    text-align:center;
+    text-align:justify;
     width: 500px;
-    height: 700px;
+    height: 500px;
     color:black;
     font-size:22px;
     float:left;
 }
 #TituloHistoriaClinica{
-    text-align: center;
+    text-align:justify;
 }
 
 /*Página de Médicos*/
@@ -62,7 +62,6 @@ button{
 #medico02{
     position: relative;
     width: 30%;
-
     left: 35%;
     top: -370px;
     color: black;
@@ -77,7 +76,6 @@ button{
     padding: 2%;
     margin:2%;
     left: 45%;
-
 }
 
 #medico04{
@@ -88,15 +86,20 @@ button{
     padding: 2%;
 }
 .botoesMenu{
-     color: black;
+    background-color:darkturquoise;
+/*    border: black solid 2px;*/
+    padding:6px;
+    border-radius: 15px;
+    
 }
 #botoesMenu{
     margin-top: 30px;
-    margin-left:300px;
+    
     position: relative;
-   
+    /*border: black solid 2px;*/
+    text-align: center;
+    
 }
-
 .tituloPagina{
     font-family: optima;
     font-size: 50px;

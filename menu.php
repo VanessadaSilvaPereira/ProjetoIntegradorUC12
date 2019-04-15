@@ -4,7 +4,7 @@
     <div style="background-image: url(imagens/olhos.png); height:400px;
          background-position:center;
          margin-top:0;
-         border: 2px solid transparent;
+         /*border: 2px solid transparent;*/
          background-repeat: no-repeat;">
     
         <div id="botoesMenu"><a class="botoesMenu" href="index.php"><button>Início</button></a>
