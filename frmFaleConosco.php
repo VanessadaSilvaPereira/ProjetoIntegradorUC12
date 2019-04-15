@@ -9,17 +9,17 @@
             
              
             <form action="controller/salvarFaleConosco.php?inserir" method="POST">
-            <label>Nome: </label>
-            <input type="text" name="txtNome" size="91" value=""  required maxlength="100"/><br><br>
+                <label>Nome: </label><br>
+            <input class="input" type="text" name="txtNome" size="100" value=""  required maxlength="100"/><br><br>
             
-             <label>E-mail: </label>
-             <input type="text" name="txtEmail" size="90" value=""  required maxlength="100"/><br><br>
+            <label>E-mail: </label><br>
+             <input class="input" type="text" name="txtEmail" size="100" value=""  required maxlength="100"/><br><br>
              
-             <label>Assunto: </label>
-             <input type="text" name="txtAssunto" size="89" value=""  required maxlength="100"/><br><br>
+             <label>Assunto: </label><br>
+             <input class="input" type="text" name="txtAssunto" size="100" value=""  required maxlength="100"/><br><br>
             
              <label>Mensagem: </label><br>
-             <textarea name="txtMensagem" required rows="9" cols="100"></textarea> <br><br>
+             <textarea name="txtMensagem" required rows="8" cols="87"></textarea><br>
              
              <input id="botaoFaleConosco" type="submit" value="Enviar" 
             </form>
