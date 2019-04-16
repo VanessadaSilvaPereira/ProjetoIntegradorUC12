@@ -4,7 +4,11 @@
        
 <div id="formulario">
             
-    <div class="tituloPagina" id="faleconoscotitulo">Fale Conosco</div>
+    <div class="tituloPagina" id="faleconoscotitulo">
+        <div style="float: left">Fale Conosco</div>
+        <div><img src="imagens/carta.png" style="margin-left: 10px;"></div>
+        <div class="limparFloat"></div>
+    </div>
             
             
              
