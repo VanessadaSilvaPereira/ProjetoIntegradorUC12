@@ -14,10 +14,10 @@
 
         <div id="historiaClinica"><div id="TituloHistoriaClinica"><h1><i>Sobre a Clínica...</i></h1></div>
 
-                <p>A JG é uma Clínica de Oftalmologia com mais de 25 anos de experiência.</p>
-                <p>Localizada na cidade de Três Lagoas.</p>
-                <p>Foi Fundada pelos DRs. Jorge e Geraldo.</p>
-                <p>Hoje seguida por seus filhos na mesma profissão.</p>
+                <p>A JG é uma Clínica de Oftalmologia com mais de 25 anos de experiência.
+                Localizada na cidade de Três Lagoas.</p>
+                <p>Foi Fundada pelos DRs. Jorge e Geraldo.
+                Hoje seguida por seus filhos na mesma profissão.</p>
                 <p>No início de suas carreiras, seus procedimentos se dividiam em atendimentos na
                     clínica e em salas alugadas no Hospital da cidade.</p>
                 <p>Através da nova visão dos filhos, empreenderam em Clínica própria para procedimentos

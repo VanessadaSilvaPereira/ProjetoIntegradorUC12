@@ -14,7 +14,25 @@
         <div class="tituloPagina" >Especialidades</div>
     </body>
 
-
+ <ul class="demo-3">
+        <li>
+            <figure>
+                <img src="imagens/consultorio.jpg" width="100%" alt=""/>
+                <figcaption>
+                    <h2>Reconstituição do globo ocular</h2>
+                    <p>Os procedimentos cirúrgicos que ajudam a recuperar a superfície ocular:</p>
+                    <p>A membrana amniótica é previamente preparada a partir de uma placenta humana, e passa por um 
+                        processamento especial antes de ser utilizada. Esta membrana tem propriedades anti-inflamatórias,
+                        consegue diminuir os vasos da córnea e facilita a cicatrização. Pode ser usada isoladamente nas 
+                        queimaduras agudas, nas perdas parciais das células tronco, no alívio da dor de certos edemas de 
+                        córnea, ou nos casos de úlceras de córnea que não respondem ao tratamento convencional.</p>
+                    <p>Também pode ser associada ao transplante de limbo, principalmente para refazer as áreas internas
+                        das pálpebras e melhorar as condições gerais do olho.</p>
+                </figcaption>
+            </figure>
+        </li>
+    </ul>
+    <div class="limparFloat"></div>
     <ul class="demo-3">
         <li>
             <figure>
@@ -66,24 +84,6 @@
             </figure>
         </li>
     </ul>
-    <ul class="demo-3">
-        <li>
-            <figure>
-                <img src="imagens/olhosbebê.jpg" width="100%" alt=""/>
-                <figcaption>
-                    <h2>Reconstituição do globo ocular</h2>
-                    <p>Os procedimentos cirúrgicos que ajudam a recuperar a superfície ocular:</p>
-                    <p>A membrana amniótica é previamente preparada a partir de uma placenta humana, e passa por um 
-                        processamento especial antes de ser utilizada. Esta membrana tem propriedades anti-inflamatórias,
-                        consegue diminuir os vasos da córnea e facilita a cicatrização. Pode ser usada isoladamente nas 
-                        queimaduras agudas, nas perdas parciais das células tronco, no alívio da dor de certos edemas de 
-                        córnea, ou nos casos de úlceras de córnea que não respondem ao tratamento convencional.</p>
-                    <p>Também pode ser associada ao transplante de limbo, principalmente para refazer as áreas internas
-                        das pálpebras e melhorar as condições gerais do olho.</p>
-                </figcaption>
-            </figure>
-        </li>
-    </ul>
     <div class="limparFloat"></div>
 
     <!-- <div class="divespecialidades" >A retina é uma fina camada de células que reveste a parte mais interna do olho. Ela é
@@ -98,25 +98,25 @@
 
     <style>
         .demo-3 {
-            margin: 5px;
+            margin: 2%;
             position:relative;
-            width:300px;
-            height:200px;
+            width:25%;
+            height:500px;
             overflow:hidden;
             float:left;
-            margin-right:16px;
+            
         }
         .demo-3 figure {
             margin:0;
             padding:0;
             position:relative;
-            margin-left:-50px
+            margin-left:-50px;
         }
         .demo-3 figure img {
             display:block;
             position:relative;
             z-index:10;
-            margin:-15px 0
+            margin:-15px 0;
         }
         .demo-3 figure figcaption {
             display:block;
@@ -124,23 +124,23 @@
             z-index:5;
             -webkit-box-sizing:border-box;
             -moz-box-sizing:border-box;
-            box-sizing:border-box
+            box-sizing:border-box;
         }
         .demo-3 figure h2 {
             font-family:'Lato';
             color:#fff;
-            font-size:20px;
-            text-align:left
+            font-size:18px;
+            text-align:left;
         }
 
         .demo-3 figure p {
             display:block;
             font-family:'Lato';
-            font-size:15px;
+            font-size:20px;
             line-height:18px;
             margin:0;
             color:#fff;
-            text-align:left
+            text-align:left;
         }
         .demo-3 figure figcaption {
             top:0;
@@ -156,23 +156,23 @@
             transform:rotateY(-180deg);
             -webkit-transition:all .5s;
             -moz-transition:all .5s;
-            transition:all .5s
+            transition:all .5s;
         }
         .demo-3 figure img {
             backface-visibility:hidden;
             -webkit-transition:all .5s;
             -moz-transition:all .5s;
-            transition:all .5s
+            transition:all .5s;
         }
         .demo-3 figure:hover img,figure.hover img {
             -webkit-transform:rotateY(180deg);
             -moz-transform:rotateY(180deg);
-            transform:rotateY(180deg)
+            transform:rotateY(180deg);
         }
         .demo-3 figure:hover figcaption,figure.hover figcaption {
             -webkit-transform:rotateY(0);
             -moz-transform:rotateY(0);
-            transform:rotateY(0)
+            transform:rotateY(0);
         }
 
     </style>
@@ -183,3 +183,4 @@
     ?> 
 
 </html> 
+https://hospitalfranciscovilar.com.br/especialidades/

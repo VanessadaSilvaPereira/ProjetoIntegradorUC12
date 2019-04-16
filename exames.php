@@ -153,27 +153,29 @@
         <style>
 
             .painel1, .painel2, .painel3, .painel4, .painel5, .painel6, .painel7, .painel8, .painel9, .painel10{
-                width: 500px;
+                width: 90%;
                 font-size: 20px;
                 display: none;
             }
             .flip1, .flip2, .flip3, .flip4, .flip5, .flip6, .flip7, .flip8, .flip9, .flip10{
                 font-size: 25px;
-                margin:15px;
+                /*margin:15px;*/
             }
             #div01{
-                margin-left: 10%;
-                margin-top: 50px;
+                width: 35%;
+                
                 position:relative;
-                margin-bottom: auto;
                 float: left;
-                margin-right: 20%;
                 border: black 1px dashed;
+                margin: 50px;
+                padding: 2%;
             }
 
             #div02{
-                margin-left: 2%;
-                margin-top: 50px;
+                padding: 2%;
+                margin: 50px;
+                width: 35%;
+                
                 position: relative;
                 margin-bottom: auto;
                 float:left;
