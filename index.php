@@ -36,12 +36,16 @@
             </div>
 
 
-            <div class="limparFloat"></div>
+            
 
-
-
-
-
+            <div id="voceSabia">
+                <h2>Você Sabia?</h2>
+                <h3>Crianças devem fazer exame oftalmológico de forma regular desde o nascimento.</h3>
+                <p>As crianças pequenas apresentam uma visão que não é definitiva 
+                    e precisam ser acompanhadas por oftalmologista 
+                    para que alterações sejam percebidas ainda em tempo hábil para tratamento.</p>
+            </div>
+<div class="limparFloat"></div>
 
     </body>
     <?php

@@ -101,7 +101,6 @@
             margin: 2%;
             position:relative;
             width:25%;
-            height:500px;
             overflow:hidden;
             float:left;
             

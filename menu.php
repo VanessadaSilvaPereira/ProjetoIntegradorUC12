@@ -16,16 +16,6 @@
             <div id="BemVindo"><i>Bem-vindo a JG Clínica Oftalmo</i></div>
 
             <style>
-                #BemVindo{
-                    color:black;
-                    font-size:50px;
-                    text-align:center;
-                    margin-top:0%;
-                }
-                #divOlhos{
-                    background-image: url(imagens/olhos.png); height:270px;
-                    background-position:center;
-                    background-repeat: no-repeat;
-                }
+               
             </style>
             </header>
