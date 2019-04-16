@@ -1,6 +1,6 @@
 <div id="formulario">
 
-    <div class="tituloPagina" id="faleconoscotitulo">
+    <div id="faleconoscotitulo">
         
         <div style="float: left">Fale Conosco</div>
         
@@ -9,19 +9,19 @@
     </div>
 
     <form action="controller/salvarFaleConosco.php?inserir" method="POST">
-        <label>Nome: </label><br>
-        <input class="input" type="text" name="txtNome" size="100%" value=""  required maxlength="100"/><br><br>
+        <div><label>Nome: </label></div>
+        <div><input class="input" type="text" name="txtNome" size="100%" value=""  required maxlength="100"/></div>
 
-        <label>E-mail: </label><br>
-        <input class="input" type="text" name="txtEmail" size="100%" value=""  required maxlength="100"/><br><br>
+        <div><label>E-mail: </label></div>
+        <div><input class="input" type="text" name="txtEmail" size="100%" value=""  required maxlength="100"/></div>
 
-        <label>Assunto: </label><br>
-        <input class="input" type="text" name="txtAssunto" size="100%" value=""  required maxlength="100"/><br><br>
+        <div><label>Assunto: </label></div>
+        <div><input class="input" type="text" name="txtAssunto" size="100%" value=""  required maxlength="100"/></div>
 
-        <label>Mensagem: </label><br>
-        <textarea name="txtMensagem" required rows="8" cols="90%"></textarea><br>
+        <div><label>Mensagem: </label></div>
+        <div><textarea name="txtMensagem" required rows="8" cols="90%"></textarea></div>
 
-        <input id="botaoFaleConosco" type="submit" value="Enviar" 
+        <div id="btnEnviar"><input id="botaoFaleConosco" type="submit" value="Enviar"></div>
     </form>
 
 
