@@ -166,9 +166,13 @@ button{
     width:98%;
     height: 400px;
     position: absolute;
+    /*position: fixed;*/
     margin-top:10%;
     color:white;
     font-size: 18px;
+    /*bottom: 0px;*/
+    
+    
 }
 #botaoFaleConosco{
     background-color:darkcyan;
@@ -210,4 +214,8 @@ button{
     width: 75%;
     font-size: 18px;
 }
+
+/*.fimTela{
+    margin-bottom: 500px;
+}*/
 

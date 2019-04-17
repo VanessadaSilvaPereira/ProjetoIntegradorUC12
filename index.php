@@ -45,10 +45,12 @@
                     e precisam ser acompanhadas por oftalmologista 
                     para que alterações sejam percebidas ainda em tempo hábil para tratamento.</p>
             </div>
+        
+      
 <div class="limparFloat"></div>
-
-    </body>
-    <?php
+<?php
     require_once './frmFaleConosco.php';
     ?>
+    </body>
+    
 </html>

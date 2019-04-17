@@ -1,3 +1,4 @@
+<!--<div class="fimTela"></div>-->
 <div id="formulario">
 
     <div id="faleconoscotitulo">
@@ -28,18 +29,28 @@
 
 </div>
 <header id="contato">
-    <ul><li>Nosso Endereço</li>
-    <li>Rua Coronel Bordini, 000</li>
-    <li>Auxiliadora</li>
-    <li>99999-000</li>
-    <li>Porto Alegre/RS<li></ul>
+    <ul>
+        <li>Nosso Endereço</li>
+        <li>Rua Coronel Bordini, 000</li>
+        <li>Auxiliadora</li>
+        <li>99999-000</li>
+        <li>Porto Alegre/RS<li>
+    </ul>
 
-    <ul><li>Telefones</li>
-    <li>51 3333.2222</li>
-    <li>51 ​3333.5555</li></ul>
+    <ul>
+        <li>Telefones</li>
+        <li>51 3333.2222</li>
+        <li>51 ​3333.5555</li>
+    </ul>
 
-    <ul><li>Horário de Atendimento</li>
-        <li>Das 08:00 às 18:00</li></ul>
+    <ul>
+        <li>Horário de Atendimento</li>
+        <li>Das 08:00 às 18:00</li>
+    </ul>
+    <img src="imagens/facebook.png" width="10%" alt=""/>
+    <img src="imagens/instagram.png" width="10%" alt="">
+    <img src="imagens/tt.png" width="10%" alt=""/>
+    <img src="imagens/whatsapp.png" width="10%" alt=""/>
 </header>
 
 <style>
@@ -47,8 +58,9 @@
         list-style-type: none;
     }
     #carta img{
-        margin-left:10px; 
+        margin-left: 10px; 
     }
+  
 </style>
 
 

@@ -12,7 +12,7 @@
         ?>
 
         <div class="tituloPagina" >Especialidades</div>
-    </body>
+   
 
  <ul class="demo-3">
         <li>
@@ -71,12 +71,17 @@
             <figure>
                 <img src="imagens/olhosbebê.jpg" width="100%" alt=""/>
                 <figcaption>
-                    <h2>TRANSPLANTE DE MEMBRANA AMNIÓTICA</h2>
-                    <p>A membrana amniótica tem propriedades anti-inflamatórias,
-                        consegue diminuir os vasos da córnea e facilita a cicatrização.
-                        Pode ser usada isoladamente nas queimaduras agudas,
-                        nas perdas parciais das células tronco, no alívio da dor de certos edemas de córnea,
-                        ou nos casos de úlceras de córnea que não respondem ao tratamento convencional.</p>
+                    <h2>OFTALMOPEDIATRIA</h2>
+                    <p>Os cuidados com a visão começam na infância
+                        As crianças também podem apresentar problemas sérios nos olhos.
+                        Os cuidados com a visão são importantes em todas as fases da vida, 
+                        sendo que a prevenção deve começar após a alta da maternidade com o teste do olhinho. 
+                        O teste do olhinho é um exame realizado em bebês, e que pode detectar e prevenir diversas patologias oculares, 
+                        assim como o agravamento dessas alterações, como uma cegueira irreversível.
+                        Na infância uma série de alterações oculares podem ser encontradas nas crianças.
+                        O ideal é que crianças menores de dois anos sejam levadas a cada seis meses 
+                        o oftalmopediatra e as maiores de dois anos façam o exame anual,
+                        porém uma criança pode ser examinada em qualquer idade e a qualquer momento.</p>
 
 <!--                    <p>Também pode ser associada ao transplante de limbo, 
                         principalmente para refazer as áreas internas das pálpebras e melhorar as condições gerais do olho.</p>-->
@@ -170,8 +175,8 @@
         }
         .demo-3 figure:hover figcaption,figure.hover figcaption {
             -webkit-transform:rotateY(0);
-            -moz-transform:rotateY(0);
-            transform:rotateY(0);
+            -moz-transform: rotateY(0);
+            transform: rotateY(0);
         }
 
     </style>
@@ -180,6 +185,6 @@
     <?php
     require_once './frmFaleConosco.php';
     ?> 
-
+</body>
 </html> 
-https://hospitalfranciscovilar.com.br/especialidades/
+<!--https://hospitalfranciscovilar.com.br/especialidades/-->
