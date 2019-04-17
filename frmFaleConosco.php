@@ -10,16 +10,16 @@
     </div>
 
     <form action="controller/salvarFaleConosco.php?inserir" method="POST">
-        <div><label>Nome: </label></div>
+        <div><label>Nome:</label></div>
         <div><input class="input" type="text" name="txtNome" size="100%" value=""  required maxlength="100"/></div>
 
-        <div><label>E-mail: </label></div>
+        <div><label>E-mail:</label></div>
         <div><input class="input" type="text" name="txtEmail" size="100%" value=""  required maxlength="100"/></div>
 
-        <div><label>Assunto: </label></div>
+        <div><label>Assunto:</label></div>
         <div><input class="input" type="text" name="txtAssunto" size="100%" value=""  required maxlength="100"/></div>
 
-        <div><label>Mensagem: </label></div>
+        <div><label>Mensagem:</label></div>
         <div><textarea name="txtMensagem" required rows="8" cols="90%"></textarea></div>
 
         <div id="btnEnviar"><input id="botaoFaleConosco" type="submit" value="Enviar"></div>
@@ -56,18 +56,6 @@
     <div class="limparFloat"></div>
     
 </header>
-
-<style>
-    li{
-        list-style-type: none;
-    }
-    #carta img{
-        margin-left: 10px; 
-    }
-    .redesocial{
-        float:right;
-    }
-</style>
 
 
 
