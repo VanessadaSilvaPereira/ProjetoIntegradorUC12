@@ -1,11 +1,16 @@
-
+/*------------------------------------------*/
+/*GERAL*/
 body{
-/*background-color:aqua; */
-background-repeat: no-repeat;
-background-size:100%;
-margin: 0;
-
-}  
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 0;
+} 
+.limparFloat{
+    clear: both;
+}
+.input{
+    height:22px;
+}
 hr{
     height: 1%;
     background-color: black;
@@ -17,88 +22,25 @@ button{
     border: none;
     margin-top:0;
 }
-/*Página inicial*/
-
-#comoVemos{
-    width:50%;    
-    height:auto;
-    font-size: 22px;          
-    background-color:darkturquoise;
-    color:white;
-    padding: 2%;
-    float:right;
-    margin-top: 10%;
-    
-}
-
-#historiaClinica{
-    margin-top: 5%;
-    padding: 5%;
-    text-align:justify;
-    width: 500px;
-    height: 500px;
-    color:black;
-    font-size:22px;
-    float:left;
-}
-#TituloHistoriaClinica{
-    text-align:justify;
-}
-
-/*Página de Médicos*/
-#medico01{
-    width: 60%;
-    height: 350px;
-    position: relative;
-    color:black;
-    margin-left: 30%;
-}
-
-.textoMedico{
-    font-size:20px;
-
-}
-
-#medico02{
-    position: relative;
-    width: 30%;
-    left: 35%;
-    top: -370px;
-    color: black;
-}
-
-#medico03{
-    width: 20%;
-    position: relative;
-    margin-top:50px;
-    margin-bottom: 50px;
-    color: black;
-    padding: 2%;
-    margin:2%;
-    left: 45%;
-}
-
-#medico04{
-    width: 80%;
-    position: relative;
-    color:black;
-    margin:2%;
-    padding: 2%;
-}
 .botoesMenu{
     background-color:darkturquoise;
-/*    border: black solid 2px;*/
-    padding:6px;
-    border-radius: 15px;
-    
-}
-#botoesMenu{
+    padding:8px;
     margin-top: 30px;
-    
-    position: relative;
-    /*border: black solid 2px;*/
     text-align: center;
-    
+    float:right;
+}
+#divOlhos{
+    height:270px;
+    background-image: url(../imagens/olhos.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: 2%;
+}
+#BemVindo{
+    color:black;
+    font-size:50px;
+    text-align:center;
+    margin-top: -3%;
 }
 .tituloPagina{
     font-family: optima;
@@ -110,55 +52,162 @@ button{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#botaoFaleConosco{
-    background-color:darkcyan;
-    color: white;
-    font-size: 25px;
-    font-family: optima;
-    width: 200px;
-    height: 35px;
-    margin-bottom: 40px;
+/*------------------------------------------*/
+/*Página inicial*/
+#TituloHistoriaClinica{
+    text-align:left;
+    margin: 2%;
+    margin-left: 8%;
 }
-#faleconoscotitulo{
+#historiaClinica{
+    background-image: url(../imagens/sala.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 15%;
+    margin-left: 5%;
+    text-align:left;
+    width: 45%;
+    height:100%;
+    color:white;
+    font-size:18px;
+    float:left;
+     /*border: solid black 2px;*/
+}
+#historiaClinica p{
+    width: 60%;
+    margin: 2%;
+    margin-left: 8%;
+    /*border: solid black 2px;*/
+}
+#comoVemos{
+    width:35%;
+    font-size: 18px;          
+    background-color:darkturquoise;
+    color:white;
+    padding: 2%;
+    float:right;
+    margin-top: 5%;
+    margin-right: 7%;
+    margin-bottom: 2%;
     text-align: left;
-    padding: 0;
 }
-.input{
-    height:22px;
+#comoVemos h2{
+    text-align: center;
+}
+#voceSabia{
+    float:right;
+    background-color: blueviolet;
+    color: white;
+    width: 35%;
+    padding: 2%;
+    margin-right: 7%; 
+    /*border: solid black 2px;*/
+}
+#voceSabia p{
+    text-align: justify;
+    font-size: 18px;
+}
+#voceSabia h2 {
+    text-align: center;
+}
+/*------------------------------------------*/
+/*Página de Médicos*/
+#medico01{
+    width: 60%;
+    height: 350px;
+    position: relative;
+    color:black;
+    margin-left: 30%;
+}
+.textoMedico{
+    font-size:20px;
+}
+#medico02{
+    position: relative;
+    width: 35%;
+    left: 35%;
+    top: -370px;
+    color: black;
+}
+#medico03{
+    width: 20%;
+    position: relative;
+    margin-top:50px;
+    margin-bottom: 50px;
+    color: black;
+    padding: 2%;
+    margin:2%;
+    left: 45%;
+}
+#medico04{
+    width: 80%;
+    position: relative;
+    color:black;
+    margin:2%;
+    padding: 2%;
+}
+/*------------------------------------------*/
+/*FALE CONOSCO*/
+#faleconoscotitulo{
+    width: 80%;
+    text-align: left;
+    font-size: 40px;
+    /*border: solid black 2px;*/
+}
+#faleconoscotitulo img{
+   width: 4%;
+   margin-top: 1%;
 }
 #formulario{
     background-color:darkturquoise;
     padding: 1%;
     width:98%;
+    height: 400px;
     position: absolute;
-    margin-top: 10%;
-    left: 0;
+    margin-top:10%;
     color:white;
+    font-size: 18px;
+}
+#botaoFaleConosco{
+    background-color:darkcyan;
+    color: white;
     font-size: 20px;
+    font-family: optima; 
+    background-color:darkcyan;
+    width: 15%;
+    height: 30px;
+    margin-bottom:1%;
+}
+#btnEnviar{
+    text-align: right;
+    /*border: solid black 2px;*/
+    width:63%;
 }
 #contato{
-    background-color: transparent;
+    /*background-color: transparent;*/
     padding:10%;
-    font-size:20px;
+    font-size:18px;
     font-family:optima;
     height: 210px;
     width: 20%;
     align-self: flex-end;
     position: relative;
-    left: 800px;
+    left: 600px;
     color:white;
-    margin-top: 15%;
+    margin-top: 5%;
 }
+/*------------------------------------------*/
+
 .divespecialidades{
     margin: 20px;
     width: 75%;
-    font-size: 18px;
+    font-size: 22px;
 }
 .divexames{
     margin: 20px;
     width: 75%;
     font-size: 18px;
 }
-.limparFloat{
-    clear: both;
-}
+
