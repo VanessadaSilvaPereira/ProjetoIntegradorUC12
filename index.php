@@ -11,6 +11,8 @@
         <?php
         require_once 'menu.php';
         ?>
+        
+        <div id="BemVindo">Bem-vindo a JG Clínica Oftalmo</div>
 
         <div id="historiaClinica"><div id="TituloHistoriaClinica"><h1><i>Sobre a Clínica...</i></h1></div>
 
@@ -24,9 +26,8 @@
                     mais amplos e complexos.</p>
 
             </div>
-            <div id="comoVemos"> <h2>Como é que nós vemos ?</h2>
-                <ul>
-                    <li>A luz reflete-se nos objetos e segue em linha reta para o olho.</li>
+            <div id="comoVemos"><h2>Como é que nós vemos ?</h2>
+                <ul><li>A luz reflete-se nos objetos e segue em linha reta para o olho.</li>
                     <li>A luz passa através da córnea, para dentro da pupila e através do cristalino.</li>
                     <li>A córnea e o cristalino ajustam-se à luz (refratam) para que a retina foque.</li>
                     <li>Os fotorrecetores na retina convertem a luz em impulsos elétricos.</li>

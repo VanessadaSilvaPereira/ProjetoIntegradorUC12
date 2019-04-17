@@ -15,19 +15,39 @@ hr{
     height: 1%;
     background-color: black;
 }
+button:link, a:visited, a:active {
+    
+    text-decoration: none;
+}
+button:hover {color:darkturquoise;
+              text-decoration: underline;
+         font-size:22px; 
+}
+
 button{
-    background-color:transparent;   color:white;
-    width: 160px;                  height: 35px;
-    font-size: 25px;               font-family:serif;
+    background-color:transparent;   
+    color:white;
+    width:auto;                 
+    height:auto;
+    font-size: 18px;               
+    font-family:serif;
     border: none;
-    margin-top:0;
+
 }
 .botoesMenu{
-    background-color:darkturquoise;
-    padding:8px;
-    margin-top: 30px;
+    /*border: solid black 2px;*/
+    padding:1%;
     text-align: center;
     float:right;
+}
+#botaoCasa{
+    width:25px;
+}
+.botoesMenu img{
+    width: 100%;
+}
+#divmenu{
+    background-color:black;   
 }
 #divOlhos{
     height:270px;
@@ -38,18 +58,16 @@ button{
 }
 #BemVindo{
     color:black;
-    font-size:50px;
+    font-size:45px;
     text-align:center;
     margin-top: -3%;
 }
 .tituloPagina{
     font-family: optima;
     font-size: 50px;
-    font-style: italic;
+    /*font-style: italic;*/
     text-align: center;
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-top: 5%;
+    margin-top: -5%;
     margin-bottom: 5%;
 }
 /*------------------------------------------*/
@@ -73,7 +91,7 @@ button{
     color:white;
     font-size:18px;
     float:left;
-     /*border: solid black 2px;*/
+    /*border: solid black 2px;*/
 }
 #historiaClinica p{
     width: 60%;
@@ -83,18 +101,20 @@ button{
 }
 #comoVemos{
     width:35%;
-    font-size: 18px;          
     background-color:darkturquoise;
     color:white;
     padding: 2%;
     float:right;
     margin-top: 5%;
     margin-right: 7%;
-    margin-bottom: 2%;
-    text-align: left;
+    margin-bottom: 2%; 
 }
 #comoVemos h2{
-    text-align: center;
+    text-align:center;
+}
+#comoVemos li{
+    text-align: justify;
+    font-size: 18px; 
 }
 #voceSabia{
     float:right;
@@ -103,7 +123,6 @@ button{
     width: 35%;
     padding: 2%;
     margin-right: 7%; 
-    /*border: solid black 2px;*/
 }
 #voceSabia p{
     text-align: justify;
@@ -157,8 +176,8 @@ button{
     /*border: solid black 2px;*/
 }
 #faleconoscotitulo img{
-   width: 4%;
-   margin-top: 1%;
+    width: 4%;
+    margin-top: 1%;
 }
 #formulario{
     background-color:darkturquoise;
@@ -166,13 +185,9 @@ button{
     width:98%;
     height: 400px;
     position: absolute;
-    /*position: fixed;*/
     margin-top:10%;
     color:white;
     font-size: 18px;
-    /*bottom: 0px;*/
-    
-    
 }
 #botaoFaleConosco{
     background-color:darkcyan;
@@ -190,7 +205,6 @@ button{
     width:63%;
 }
 #contato{
-    /*background-color: transparent;*/
     padding:10%;
     font-size:18px;
     font-family:optima;
@@ -204,11 +218,6 @@ button{
 }
 /*------------------------------------------*/
 
-.divespecialidades{
-    margin: 20px;
-    width: 75%;
-    font-size: 22px;
-}
 .divexames{
     margin: 20px;
     width: 75%;

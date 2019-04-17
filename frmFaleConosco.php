@@ -47,10 +47,14 @@
         <li>Horário de Atendimento</li>
         <li>Das 08:00 às 18:00</li>
     </ul>
-    <img src="imagens/facebook.png" width="10%" alt=""/>
-    <img src="imagens/instagram.png" width="10%" alt="">
-    <img src="imagens/tt.png" width="10%" alt=""/>
-    <img src="imagens/whatsapp.png" width="10%" alt=""/>
+    
+    
+    <div class="redesocial"><a href="https://www.facebook.com"><img src="imagens/facebook.png" width="100%"/></a></div>
+    <div class="redesocial"><a href="https://www.instagram.com/"><img src="imagens/instagram.png" width="100%"></a></div>
+    <div class="redesocial"><a href="https://twitter.com/"><img src="imagens/tt.png" width="100%"/></a></div>
+    <div class="redesocial"><a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.png" width="100%"/></a></div>
+    <div class="limparFloat"></div>
+    
 </header>
 
 <style>
@@ -60,7 +64,9 @@
     #carta img{
         margin-left: 10px; 
     }
-  
+    .redesocial{
+        float:right;
+    }
 </style>
 
 

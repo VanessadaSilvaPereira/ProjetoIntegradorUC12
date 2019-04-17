@@ -189,9 +189,7 @@
                 padding: 2%;
                 margin: 50px;
                 width: 35%;
-
                 position: relative;
-                margin-bottom: auto;
                 float:left;
                 border: black 1px dashed;
             }
