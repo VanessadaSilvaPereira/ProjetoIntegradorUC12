@@ -1,50 +1,137 @@
-
+/*------------------------------------------*/
+/*GERAL*/
 body{
-/*background-color:aqua; */
-background-repeat: no-repeat;
-background-size:100%;
-margin: 0;
-
-}  
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 0;
+} 
+.limparFloat{
+    clear: both;
+}
+.input{
+    height:22px;
+}
 hr{
     height: 1%;
     background-color: black;
 }
-button{
-    background-color:transparent;   color:white;
-    width: 160px;                  height: 35px;
-    font-size: 25px;               font-family:serif;
-    border: none;
-    margin-top:0;
-}
-/*Página inicial*/
+button:link, a:visited, a:active {
 
-#comoVemos{
-    width:50%;    
+    text-decoration: none;
+}
+button:hover {color:darkturquoise;
+              text-decoration: underline;
+              font-size:22px; 
+}
+
+button{
+    background-color:transparent;   
+    color:white;
+    width:auto;                 
     height:auto;
-    font-size: 22px;          
+    font-size: 18px;               
+    font-family:serif;
+    border: none;
+
+}
+.botoesMenu{
+    /*border: solid black 2px;*/
+    padding:1%;
+    text-align: center;
+    float:right;
+}
+#botaoCasa{
+    width:25px;
+}
+.botoesMenu img{
+    width: 100%;
+}
+#divmenu{
+    background-color:black;   
+}
+#divOlhos{
+    height:270px;
+    background-image: url(../imagens/olhos.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: 2%;
+}
+#BemVindo{
+    color:black;
+    font-size:45px;
+    text-align:center;
+    margin-top: -3%;
+}
+.tituloPagina{
+    font-family: optima;
+    font-size: 50px;
+    /*font-style: italic;*/
+    text-align: center;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+/*------------------------------------------*/
+/*Página inicial*/
+#TituloHistoriaClinica{
+    text-align:left;
+    margin: 2%;
+    margin-left: 8%;
+}
+#historiaClinica{
+    background-image: url(../imagens/sala.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 15%;
+    margin-left: 5%;
+    text-align:left;
+    width: 45%;
+    height:100%;
+    color:white;
+    font-size:18px;
+    float:left;
+    /*border: solid black 2px;*/
+}
+#historiaClinica p{
+    width: 60%;
+    margin: 2%;
+    margin-left: 8%;
+    /*border: solid black 2px;*/
+}
+#comoVemos{
+    width:35%;
     background-color:darkturquoise;
     color:white;
     padding: 2%;
     float:right;
-    margin-top: 10%;
-    
-}
-
-#historiaClinica{
     margin-top: 5%;
-    padding: 5%;
-    text-align:justify;
-    width: 500px;
-    height: 500px;
-    color:black;
-    font-size:22px;
-    float:left;
+    margin-right: 7%;
+    margin-bottom: 2%; 
 }
-#TituloHistoriaClinica{
-    text-align:justify;
+#comoVemos h2{
+    text-align:center;
 }
-
+#comoVemos li{
+    text-align: justify;
+    font-size: 18px; 
+}
+#voceSabia{
+    float:right;
+    background-color: blueviolet;
+    color: white;
+    width: 35%;
+    padding: 2%;
+    margin-right: 7%; 
+}
+#voceSabia p{
+    text-align: justify;
+    font-size: 18px;
+}
+#voceSabia h2 {
+    text-align: center;
+}
+/*------------------------------------------*/
 /*Página de Médicos*/
 #medico01{
     width: 60%;
@@ -53,20 +140,16 @@ button{
     color:black;
     margin-left: 30%;
 }
-
 .textoMedico{
     font-size:20px;
-
 }
-
 #medico02{
     position: relative;
-    width: 30%;
+    width: 35%;
     left: 35%;
     top: -370px;
     color: black;
 }
-
 #medico03{
     width: 20%;
     position: relative;
@@ -77,7 +160,6 @@ button{
     margin:2%;
     left: 45%;
 }
-
 #medico04{
     width: 80%;
     position: relative;
@@ -85,80 +167,175 @@ button{
     margin:2%;
     padding: 2%;
 }
-.botoesMenu{
-    background-color:darkturquoise;
-/*    border: black solid 2px;*/
-    padding:6px;
-    border-radius: 15px;
-    
-}
-#botoesMenu{
-    margin-top: 30px;
-    
-    position: relative;
-    /*border: black solid 2px;*/
-    text-align: center;
-    
-}
-.tituloPagina{
-    font-family: optima;
-    font-size: 50px;
-    font-style: italic;
-    text-align: center;
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-#botaoFaleConosco{
-    background-color:darkcyan;
-    color: white;
-    font-size: 25px;
-    font-family: optima;
-    width: 200px;
-    height: 35px;
-    margin-bottom: 40px;
-}
+/*------------------------------------------*/
+/*FALE CONOSCO*/
 #faleconoscotitulo{
+    width: 80%;
     text-align: left;
-    padding: 0;
+    font-size: 40px;
+    /*border: solid black 2px;*/
 }
-.input{
-    height:22px;
+#faleconoscotitulo img{
+    width: 4%;
+    margin-top: 1%;
 }
 #formulario{
     background-color:darkturquoise;
     padding: 1%;
     width:98%;
+    height: 400px;
     position: absolute;
-    margin-top: 10%;
-    left: 0;
+    margin-top:10%;
     color:white;
+    font-size: 18px;
+}
+#botaoFaleConosco{
+    background-color:darkcyan;
+    color: white;
     font-size: 20px;
+    font-family: optima; 
+    background-color:darkcyan;
+    width: 15%;
+    height: 30px;
+    margin-bottom:1%;
+}
+#btnEnviar{
+    text-align: right;
+    /*border: solid black 2px;*/
+    width:63%;
 }
 #contato{
-    background-color: transparent;
     padding:10%;
-    font-size:20px;
+    font-size:18px;
     font-family:optima;
     height: 210px;
     width: 20%;
     align-self: flex-end;
     position: relative;
-    left: 800px;
+    left: 600px;
     color:white;
-    margin-top: 15%;
+    margin-top: 5%;
 }
-.divespecialidades{
-    margin: 20px;
-    width: 75%;
-    font-size: 18px;
-}
+/*------------------------------------------*/
+
 .divexames{
     margin: 20px;
     width: 75%;
     font-size: 18px;
 }
-.limparFloat{
-    clear: both;
+
+/*.fimTela{
+    margin-bottom: 500px;
+}*/
+
+#contato li{
+    list-style-type: none;
+}
+#carta img{
+    margin-left: 10px; 
+}
+.redesocial{
+    float:right;
+}
+/*-------------------------------*/
+/*Exames*/
+h3 img{
+    width:22px; margin-left:5px; 
+}
+#painel1,#painel2,#painel3,#painel4,#painel5,#painel6,#painel7,#painel8,#painel9,#painel10{
+    width: 90%;
+    font-size: 20px;
+    display: none;
+}
+#flip1,#flip2,#flip3,#flip4,#flip5,#flip6,#flip7,#flip8,#flip9,#flip10{
+    font-size: 25px;
+}
+#div01{
+    width: 35%;
+    position:relative;
+    float: left;
+    border: black 1px dashed;
+    margin: 50px;
+    padding: 2%;
+}
+#div02{
+    padding: 2%;
+    margin: 50px;
+    width: 35%;
+    position: relative;
+    float:left;
+    border: black 1px dashed;
+}
+/*-------------------------------*/
+/*Especialidades*/
+.demo-3 {
+    position:relative;
+    width:28%;
+    overflow:hidden;
+    float:left;  
+}
+.demo-3 li{
+    list-style-type: none;
+}
+.demo-3 figure {
+    margin:0;
+    padding:0;
+    position:relative;
+}
+.demo-3 figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0;
+}
+.demo-3 figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.demo-3 figure p {
+    display:block;
+    font-family:'Lato';
+    font-size:16px;
+    margin:0;
+    color:#fff;
+    text-align:left;
+}
+.demo-3 figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:15px;
+    background-color:blueviolet;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+.demo-3 figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+.demo-3 figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+}
+h3{
+    text-align: center;
 }
