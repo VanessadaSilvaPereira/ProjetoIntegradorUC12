@@ -3,7 +3,7 @@
 body{
     /*background-size:100%;*/
     /*background-repeat: no-repeat;*/
-    /*margin: 0;*/
+    margin: 0;
 } 
 .limparFloat{
     clear: both;
@@ -206,9 +206,10 @@ button{
     background-color:darkturquoise;
     padding: 1%;
     width:98%;
-    height: 400px;
+    height: 500px;
     position: absolute;
     margin-top:10%;
+    margin-bottom: 0;
     color:white;
     font-size: 18px;
 }
