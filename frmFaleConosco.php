@@ -49,10 +49,10 @@
     </ul>
     
     
-    <div class="redesocial"><a href="https://www.facebook.com"><img src="imagens/facebook.png" width="100%"/></a></div>
-    <div class="redesocial"><a href="https://www.instagram.com/"><img src="imagens/instagram.png" width="100%"></a></div>
-    <div class="redesocial"><a href="https://twitter.com/"><img src="imagens/tt.png" width="100%"/></a></div>
-    <div class="redesocial"><a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.png" width="100%"/></a></div>
+    <div class="redesocial"><a href="https://www.facebook.com" target="_blank"><img src="imagens/facebook.png" width="100%"/></a></div>
+    <div class="redesocial"><a href="https://www.instagram.com/"target="_blank"><img src="imagens/instagram.png" width="100%"></a></div>
+    <div class="redesocial"><a href="https://twitter.com/" target="_blank"><img src="imagens/tt.png" width="100%"/></a></div>
+    <div class="redesocial"><a href="https://web.whatsapp.com/" target="_blank"><img src="imagens/whatsapp.png" width="100%"/></a></div>
     <div class="limparFloat"></div>
     
 </header>
