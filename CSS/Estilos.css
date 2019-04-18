@@ -33,8 +33,6 @@ button{
     border: none;
 }
 .botoesMenu{
-    /*background-color:transparent;*/
-    border: solid black 2px;
     padding:1%;
     text-align: center;
     float:right;
@@ -89,13 +87,11 @@ button{
     color:white;
     font-size:18px;
     float:left;
-
 }
 #historiaClinica p{
     width: 45%;
     margin: 2%;
     margin-left: 15%;
-
 }
 #comoVemos{
     background-color: darkturquoise;
@@ -169,15 +165,6 @@ button{
     margin:2%;
     padding: 2%;
 }
-/*.botoesMenu{
-    background-color:darkturquoise;
-    border: black solid 2px;
-    padding:6px;
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-right: 5px;
-    text-align: center;
-}*/
 #botoesMenu{
     margin-top: 30px;
 
@@ -203,7 +190,6 @@ button{
     height: 35px;
     margin-bottom: 40px;
 }
-
 /*------------------------------------------*/
 /*FALE CONOSCO*/
 
@@ -211,7 +197,6 @@ button{
     width: 80%;
     text-align: left;
     font-size: 40px;
-    /*border: solid black 2px;*/
 }
 #faleconoscotitulo img{
     width: 4%;
@@ -232,14 +217,12 @@ button{
     color: white;
     font-size: 20px;
     font-family: optima; 
-    background-color:darkcyan;
     width: 15%;
     height: 30px;
     margin-bottom:1%;
 }
-#btnEnviar{
+#btnEnviar2{
     text-align: right;
-    /*border: solid black 2px;*/
     width:63%;
 }
 #contato{

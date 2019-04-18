@@ -1,11 +1,12 @@
 <?php
 
 class FaleConosco {
-    private $id, $nome, $email, $mensagem;
+    private $id, $nome,$assunto, $email, $mensagem;
     
-    function __construct($id = NULL, $nome = NULL, $email = NULL , $mensagem = NULL) {
+    function __construct($id = NULL, $nome = NULL, $assunto=NULL, $email = NULL , $mensagem = NULL) {
         $this->id = $id;
         $this->nome = $nome;
+        $this->assunto = $assunto;
         $this->email = $email;
         $this->mensagem = $mensagem;
     }
@@ -16,6 +17,9 @@ class FaleConosco {
 
     function getNome() {
         return $this->nome;
+    }
+    function getAssunto() {
+        return $this->assunto;
     }
 
     function getEmail() {
@@ -34,6 +38,10 @@ class FaleConosco {
         $this->nome = $nome;
     }
 
+    function setAssunto($assunto) {
+        $this->assunto = $assunto;
+    }
+    
     function setEmail($email) {
         $this->email = $email;
     }

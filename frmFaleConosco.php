@@ -21,8 +21,13 @@
 
         <div><label>Mensagem:</label></div>
         <div><textarea name="txtMensagem" required rows="8" cols="90%"></textarea></div>
-
-        <div id="btnEnviar"><input id="botaoFaleConosco" type="submit" value="Enviar"></div>
+     
+        <!--<div id="btnEnviar2">-->
+            <input id="botaoFaleConosco" type="submit" value="Enviar" />
+<!--        </div>-->
+           
+        <!--<input id="botaoFaleConosco" type="submit" value="Enviar">-->
+        
     </form>
 
 
