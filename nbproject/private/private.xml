@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+<<<<<<< HEAD
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/controller/salvarFaleConosco.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/dao/clsFaleConoscoDAO.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/fundo-de-madeira-azul-claro_2221-839.jpg</file>
@@ -20,6 +22,31 @@
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/exames.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/CSS/Estilos.css</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/fundo.jpg</file>
+=======
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/especialidades.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/medico%204.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/frmFaleConosco.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/fiqueDeOlho.php</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/exames.php</file>
+=======
+<<<<<<< HEAD
+=======
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/sala.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/medico%203.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/casa.png</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/olhos.png</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/olhosCastanhos.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/olhosbebê.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/carta.png</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/medico%202.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/setas.png</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/consultorio.jpg</file>
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/imagens/idoso1.jpg</file>
+>>>>>>> 2ea6f2490b5c2efaa0a8468139adde276aa27592
+>>>>>>> b5b5d145437c4edc581ccf565a70a09a435bdf1f
         </group>
     </open-files>
+>>>>>>> 82c21e3f8962089a1a8c043c23889bb3d0e2ee91
 </project-private>
