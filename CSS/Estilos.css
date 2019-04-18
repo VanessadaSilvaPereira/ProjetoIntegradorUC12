@@ -4,7 +4,6 @@ body{
 background-repeat: no-repeat;
 background-size:100%;
 margin: 0;
-
 }  
 hr{
     height: 1%;
@@ -20,7 +19,7 @@ button{
 /*Página inicial*/
 
 #comoVemos{
-    width:50%;    
+    width:45%;    
     height:auto;
     font-size: 22px;          
     background-color:darkturquoise;
@@ -28,17 +27,17 @@ button{
     padding: 2%;
     float:right;
     margin-top: 10%;
-    
+    margin-right: 5%;
 }
 
 #historiaClinica{
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 5%;
     text-align:justify;
     width: 500px;
     height: 500px;
-    color:black;
-    font-size:22px;
+    color:darkturquoise;
+    font-size:25px;
     float:left;
 }
 #TituloHistoriaClinica{
@@ -91,6 +90,7 @@ button{
     padding:6px;
     border-radius: 15px;
      margin-top: 30px;
+     margin-right: 5px;
      text-align: center;
 }
 #botoesMenu{
