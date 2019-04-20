@@ -1,8 +1,8 @@
 /*------------------------------------------*/
 /*GERAL*/
 body{
-    background-repeat: no-repeat;
-    background-size:100%;
+    /*background-size:100%;*/
+    /*background-repeat: no-repeat;*/
     margin: 0;
 } 
 .limparFloat{
@@ -19,32 +19,33 @@ button:link, a:visited, a:active {
 
     text-decoration: none;
 }
-button:hover {color:darkturquoise;
-              text-decoration: underline;
-              font-size:22px; 
+button:hover {
+    font-size:22px; 
 }
-
 button{
-    background-color:transparent;   
+    background-color:transparent; 
     color:white;
     width:auto;                 
     height:auto;
     font-size: 18px;               
     font-family:serif;
     border: none;
-
+}
+/*para retirar a borda azul do botão quando ele é clicado*/
+button:focus{
+    outline-style: none;
 }
 .botoesMenu{
-    /*border: solid black 2px;*/
     padding:1%;
     text-align: center;
     float:right;
 }
+
 #botaoCasa{
     width:25px;
 }
 .botoesMenu img{
-    width: 100%;
+    width:100%;
 }
 #divmenu{
     background-color:black;   
@@ -65,7 +66,6 @@ button{
 .tituloPagina{
     font-family: optima;
     font-size: 50px;
-    /*font-style: italic;*/
     text-align: center;
     margin-top: -5%;
     margin-bottom: 5%;
@@ -84,31 +84,33 @@ button{
     background-position: center;
     background-size: 100%;
     margin-top: 15%;
-    margin-left: 5%;
+    margin-left: 15%;
     text-align:left;
-    width: 45%;
+    width: 35%;
     height:100%;
     color:white;
     font-size:18px;
     float:left;
-    /*border: solid black 2px;*/
 }
 #historiaClinica p{
-    width: 60%;
+    width: 45%;
     margin: 2%;
-    margin-left: 8%;
-    /*border: solid black 2px;*/
+    margin-left: 15%;
 }
 #comoVemos{
-    width:35%;
-    background-color:darkturquoise;
+    background-color: darkturquoise;
+    width:30%;    
+    height:auto;
+    font-size: 22px;          
+    width:30%;
     color:white;
     padding: 2%;
     float:right;
-    margin-top: 5%;
-    margin-right: 7%;
-    margin-bottom: 2%; 
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
 }
+
 #comoVemos h2{
     text-align:center;
 }
@@ -120,9 +122,9 @@ button{
     float:right;
     background-color: blueviolet;
     color: white;
-    width: 35%;
+    width: 30%;
     padding: 2%;
-    margin-right: 7%; 
+    margin-right: 10%; 
 }
 #voceSabia p{
     text-align: justify;
@@ -134,46 +136,87 @@ button{
 /*------------------------------------------*/
 /*Página de Médicos*/
 #medico01{
-    width: 60%;
-    height: 350px;
+    width:auto;
+    height:auto;
     position: relative;
-    color:black;
-    margin-left: 30%;
+    /*color:black;*/
+    /*margin-left: 30%;*/
+    /*border: 2px solid black;*/
+    float: left;
+     margin: 2%;
+     padding: 2%;
 }
 .textoMedico{
     font-size:20px;
+
+    text-align: left
 }
 #medico02{
     position: relative;
-    width: 35%;
-    left: 35%;
-    top: -370px;
-    color: black;
+    width:auto;
+    /*left: 35%;*/
+    /*top: -370px;*/
+    /*color: black;*/
+    /*border: 2px solid black;*/
+    float: left;
+    margin: 2%;
+    padding: 2%;
 }
 #medico03{
-    width: 20%;
+     margin: 2%;
+    /*border: 2px solid black;*/
+    width:auto;
     position: relative;
     margin-top:50px;
     margin-bottom: 50px;
-    color: black;
+    /*color: black;*/
     padding: 2%;
     margin:2%;
-    left: 45%;
+    /*left: 45%;*/
+    float:right;
+    
 }
 #medico04{
-    width: 80%;
+    /*border: 2px solid black;*/
+    width:auto;
     position: relative;
-    color:black;
+    /*color:black;*/
     margin:2%;
     padding: 2%;
+    float: left;
+}
+#botoesMenu{
+    margin-top: 30px;
+    position: relative;
+    text-align: center; 
+}
+.tituloPagina{
+    font-family: optima;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#botaoFaleConosco{
+    background-color:darkcyan;
+    color: white;
+    font-size: 25px;
+    font-family: optima;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 40px;
 }
 /*------------------------------------------*/
 /*FALE CONOSCO*/
+
 #faleconoscotitulo{
     width: 80%;
     text-align: left;
     font-size: 40px;
-    /*border: solid black 2px;*/
+    /*border: 5px solid black;*/
 }
 #faleconoscotitulo img{
     width: 4%;
@@ -183,38 +226,37 @@ button{
     background-color:darkturquoise;
     padding: 1%;
     width:98%;
-    height: 400px;
+    height:auto;
     position: absolute;
     margin-top:10%;
+    margin-bottom: 0;
     color:white;
     font-size: 18px;
+    /*border: 5px solid black;*/
 }
 #botaoFaleConosco{
     background-color:darkcyan;
     color: white;
     font-size: 20px;
-    font-family: optima; 
-    background-color:darkcyan;
-    width: 15%;
-    height: 30px;
-    margin-bottom:1%;
-}
-#btnEnviar{
-    text-align: right;
-    /*border: solid black 2px;*/
-    width:63%;
+    height:auto;
+    /*border: 5px solid black;*/
+    width: auto;
+    padding: 1%;
 }
 #contato{
-    padding:10%;
+    /*border: 5px solid black;*/
     font-size:18px;
     font-family:optima;
-    height: 210px;
-    width: 20%;
+    height:auto;
+    width:auto;
     align-self: flex-end;
     position: relative;
-    left: 600px;
     color:white;
-    margin-top: 5%;
+    float:left;
+    margin: 2%;
+}
+#divForm{
+    float: left;
 }
 /*------------------------------------------*/
 
@@ -223,18 +265,18 @@ button{
     width: 75%;
     font-size: 18px;
 }
-
 /*.fimTela{
     margin-bottom: 500px;
 }*/
-
 #contato li{
     list-style-type: none;
 }
 #carta img{
+    width: 3%;
     margin-left: 10px; 
 }
 .redesocial{
+    /*border: 5px solid black;*/
     float:right;
 }
 /*-------------------------------*/
@@ -337,5 +379,17 @@ h3 img{
     transform: rotateY(0);
 }
 h3{
-    text-align: center;
+    text-align:center;
+
 }
+#div01 h3{
+    text-align: left;
+}
+
+#div02 h3{
+    text-align: left;
+}
+ /*adicionar margem nos paragrafos*/
+            p:first-letter{
+                margin-left: 10%;
+            }

@@ -2,7 +2,7 @@
 include_once '../dao/clsConexao.php';
 include_once '../dao/clsFaleConoscoDAO.php';
 include_once '../model/clsFaleConosco.php';
-require 'PHPMailer/src/OAuth.php';
+require '../PHPMailer/src/OAuth.php';
 
 if (isset($_REQUEST ['inserir'])) {
     $faleConosco = new FaleConosco();

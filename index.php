@@ -35,10 +35,7 @@
                     <li>O cérebro processa os sinais para criar uma imagem.</li>
                 </ul>
             </div>
-
-
-            
-
+        
             <div id="voceSabia">
                 <h2>Você Sabia?</h2>
                 <h3>Crianças devem fazer exame oftalmológico de forma regular desde o nascimento.</h3>
