@@ -15,7 +15,7 @@
         <div class="tituloPagina">Fique de Olho </div>
 
 
-        <div style="border: solid 2px black; text-align: center;background-color:yellow;">
+        <div style="border: solid 2px black; text-align: center;background-color:yellow;font-size: 22px;">
             <h5>Você já parou para pensar na quantidade de doenças dos olhos que existem?</h5>
             <h5>Apesar do número elevado de problemas que podem afetar nossa visão, só
                 costumamos tomar alguma ação quando ela já está prejudicada de certa forma.</h5></div>
