@@ -1,8 +1,6 @@
 /*------------------------------------------*/
 /*GERAL*/
 body{
-    /*background-size:100%;*/
-    /*background-repeat: no-repeat;*/
     margin: 0;
 } 
 .limparFloat{
@@ -16,11 +14,9 @@ hr{
     background-color: black;
 }
 button:link, a:visited, a:active {
-
     text-decoration: none;
 }
 button:hover {
-    text-decoration: underline;
     font-size:22px; 
 }
 button{
@@ -31,6 +27,10 @@ button{
     font-size: 18px;               
     font-family:serif;
     border: none;
+}
+/*para retirar a borda azul do botão quando ele é clicado*/
+button:focus{
+    outline-style: none;
 }
 .botoesMenu{
     padding:1%;
@@ -106,7 +106,6 @@ button{
     margin-right: 10%;
     margin-bottom: 2%;
 }
-
 #comoVemos h2{
     text-align:center;
 }
@@ -132,42 +131,52 @@ button{
 /*------------------------------------------*/
 /*Página de Médicos*/
 #medico01{
-    width: 60%;
-    height: 350px;
+    width:auto;
+    height:auto;
     position: relative;
-    color:black;
+    float: left;
     margin-left: 30%;
+    padding: 2%;
+    background-color: antiquewhite;
+    /*border: solid black 2px;*/
 }
 .textoMedico{
     font-size:20px;
+    text-align: left
 }
 #medico02{
     position: relative;
-    width: 35%;
-    left: 35%;
-    top: -370px;
-    color: black;
+    width:auto;
+    float: left;
+    padding: 2%;
+     margin-left: 2%;
+    background-color: antiquewhite;
+    /*border: solid black 2px;*/
 }
 #medico03{
-    width: 20%;
+    margin: 2%;
+    width:auto;
     position: relative;
     margin-top:50px;
     margin-bottom: 50px;
-    color: black;
     padding: 2%;
     margin:2%;
-    left: 45%;
+    margin-right:25%;
+    float:right;
+    background-color: antiquewhite;
+    /*border: solid black 2px;*/
 }
 #medico04{
-    width: 80%;
+    width:auto;
     position: relative;
-    color:black;
     margin:2%;
+    margin-left:20%;
     padding: 2%;
+    float: left;
+    background-color:antiquewhite;
 }
 #botoesMenu{
     margin-top: 30px;
-
     position: relative;
     text-align: center; 
 }
@@ -206,7 +215,7 @@ button{
     background-color:darkturquoise;
     padding: 1%;
     width:98%;
-    height: 500px;
+    height:auto;
     position: absolute;
     margin-top:10%;
     margin-bottom: 0;
@@ -217,26 +226,23 @@ button{
     background-color:darkcyan;
     color: white;
     font-size: 20px;
-    font-family: optima; 
-    width: 15%;
-    height: 30px;
-    margin-bottom:1%;
-}
-#btnEnviar2{
-    text-align: right;
-    width:63%;
+    height:auto;
+    width: auto;
+    padding: 1%;
 }
 #contato{
-    padding:10%;
     font-size:18px;
     font-family:optima;
-    height: 210px;
-    width: 20%;
+    height:auto;
+    width:auto;
     align-self: flex-end;
     position: relative;
-    left: 600px;
     color:white;
-    margin-top: 5%;
+    float:left;
+    margin: 2%;
+}
+#divForm{
+    float: left;
 }
 /*------------------------------------------*/
 
@@ -252,6 +258,7 @@ button{
     list-style-type: none;
 }
 #carta img{
+    width: 3%;
     margin-left: 10px; 
 }
 .redesocial{
@@ -357,5 +364,15 @@ h3 img{
     transform: rotateY(0);
 }
 h3{
-    text-align: center;
+    text-align:center;
+}
+#div01 h3{
+    text-align: left;
+}
+#div02 h3{
+    text-align: left;
+}
+/*adicionar margem nos paragrafos*/
+p:first-letter{
+    margin-left: 10%;
 }
