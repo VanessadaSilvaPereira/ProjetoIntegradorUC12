@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/controller/salvarFaleConosco.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/dao/clsFaleConoscoDAO.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/frmFaleConosco.php</file>
@@ -12,6 +13,9 @@
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/PHPMailer2/VERSION</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/dao/clsConexao.php</file>
             <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/CSS/Estilos.css</file>
+=======
+            <file>file:/C:/xampp/htdocs/m171/ProjetoIntegradorUC12/fiqueDeOlho.php</file>
+>>>>>>> ae40527d2dd43f39b1e6aa755e212826ddeb7ced
         </group>
     </open-files>
 </project-private>
