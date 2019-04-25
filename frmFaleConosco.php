@@ -4,7 +4,7 @@
     <div id="faleconoscotitulo">
 
         <div style="float: left">Fale Conosco</div>
-        <div id="carta"><img src="imagens/carta.png"></div>
+        <!--<div id="carta"><img src="imagens/carta.png"></div>-->
     </div>
 
     <div id="divForm" style="width: 50%;"> <form action="controller/salvarFaleConosco.php?inserir" method="POST">

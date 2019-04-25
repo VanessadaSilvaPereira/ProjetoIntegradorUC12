@@ -2,6 +2,11 @@
 /*GERAL*/
 body{
     margin: 0;
+    background-image: url(../imagens/fundo6.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
 } 
 .limparFloat{
     clear: both;
@@ -137,7 +142,7 @@ button:focus{
     float: left;
     margin-left: 30%;
     padding: 2%;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     /*border: solid black 2px;*/
 }
 .textoMedico{
@@ -150,7 +155,7 @@ button:focus{
     float: left;
     padding: 2%;
      margin-left: 2%;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     /*border: solid black 2px;*/
 }
 #medico03{
@@ -163,7 +168,7 @@ button:focus{
     margin:2%;
     margin-right:25%;
     float:right;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     /*border: solid black 2px;*/
 }
 #medico04{
@@ -173,7 +178,7 @@ button:focus{
     margin-left:20%;
     padding: 2%;
     float: left;
-    background-color:antiquewhite;
+    /*background-color:antiquewhite;*/
 }
 #botoesMenu{
     margin-top: 30px;
@@ -212,7 +217,12 @@ button:focus{
     margin-top: 1%;
 }
 #formulario{
-    background-color:darkturquoise;
+    /*background-color:darkturquoise;*/
+    background-image: url(../imagens/fundo5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100%;
     padding: 1%;
     width:98%;
     height:auto;
@@ -231,15 +241,16 @@ button:focus{
     padding: 1%;
 }
 #contato{
-    font-size:18px;
+    font-size:22px;
     font-family:optima;
     height:auto;
     width:auto;
     align-self: flex-end;
     position: relative;
     color:white;
-    float:left;
-    margin: 2%;
+    float:right;
+    margin-right: 2%;
+    color: lightseagreen;
 }
 #divForm{
     float: left;
@@ -257,10 +268,10 @@ button:focus{
 #contato li{
     list-style-type: none;
 }
-#carta img{
+/*#carta img{
     width: 3%;
     margin-left: 10px; 
-}
+}*/
 .redesocial{
     float:right;
 }

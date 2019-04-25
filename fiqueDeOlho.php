@@ -291,7 +291,7 @@
             .Fiquedeolho {
                 width: 80%;
                 padding:2%;
-                background-color:background;
+                background-color:dimgrey;
                 margin-bottom:2%;
                 color: white;
                 height: 60px;
@@ -305,8 +305,8 @@
                 display:block;
             }
             .Fiquedeolho:hover {
-                color: lemonchiffon;
-                background-color:darkslateblue;
+                color: white;
+                background-color:darkgray;
                 font-size: 18px;
                 width: 100%;
                 height: auto;
