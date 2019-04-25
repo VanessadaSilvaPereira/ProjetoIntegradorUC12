@@ -4,20 +4,20 @@
     <div id="faleconoscotitulo">
 
         <div style="float: left">Fale Conosco</div>
-        <div id="carta"><img src="imagens/carta.png"></div>
+        <!--<div id="carta"><img src="imagens/carta.png"></div>-->
     </div>
-
+    <div class="limparFloat"></div>
     <div id="divForm" style="width: 50%;"> <form action="controller/salvarFaleConosco.php?inserir" method="POST">
-        <label>Nome:</label>
+            <label class="labelForm">Nome:</label>
         <div style=""><input size="100%" class="input" type="text" name="txtNome" value=""  required maxlength="100"/></div>
 
-        <label>E-mail:</label>
+        <label class="labelForm">E-mail:</label>
         <div style=""><input size="100%" class="input" type="text" name="txtEmail" value=""  required maxlength="100"/></div>
 
-        <label>Assunto:</label>
+        <label class="labelForm">Assunto:</label>
         <div><input class="input" type="text" name="txtAssunto" size="100%" value=""  required maxlength="100"/></div>
 
-        <label>Mensagem:</label>
+        <label class="labelForm">Mensagem:</label>
         <div><textarea name="txtMensagem" required rows="8" cols="100%"></textarea></div>
 
 

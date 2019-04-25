@@ -12,7 +12,7 @@
         require_once 'menu.php';
         ?>
 
-        <div id="BemVindo">Bem-vindo a JG Clínica Oftalmo</div>
+        
 
         <div id="historiaClinica"><div id="TituloHistoriaClinica"><h1><i>Sobre a Clínica...</i></h1></div>
 
