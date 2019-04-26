@@ -30,7 +30,7 @@ button{
     color:white;
     width:auto;                 
     height:auto;
-    font-size: 30px;               
+    font-size: 20px;               
     font-family:serif;
     border: none;
 }
@@ -61,7 +61,7 @@ button:focus{
 #divOlhos{
     height:600px;
     background-image: url(../imagens/oftalmologia-adulta.jpg);
-    background-position:center;
+    background-position:top;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100%;
@@ -70,7 +70,7 @@ button:focus{
 }
 #BemVindo{
     color:white;
-    font-size:65px;
+    font-size:40px;
     text-align:center;
     /*margin-top:;*/
 }
@@ -206,7 +206,7 @@ button:focus{
     margin-bottom: 5%;
 }
 #botaoFaleConosco{
-    background-color:darkcyan;
+    background-color: darkblue;
     color: white;
     font-size: 25px;
     font-family: optima;
@@ -220,30 +220,32 @@ button:focus{
 #faleconoscotitulo{
     width: 80%;
     text-align: left;
-    font-size: 40px;
+    font-size: 35px;
+    font-family: optima;
 }
 #faleconoscotitulo img{
     width: 4%;
-    margin-top: 1%;
+    /*margin-top: 1%;*/
 }
 #formulario{
     /*background-color:darkturquoise;*/
-/* background-image: url(../imagens/fundofrm.jpg);
+ background-image: url(../imagens/fundofrm.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-position: center;
-    background-size: 100%;*/
+    background-position:bottom;
+    background-size: 100%;
     padding: 1%;
     width:98%;
-    height:500px;
+    height:auto;
     position: absolute;
     margin-top:10%;
-    margin-bottom: 0;
-    color:darkturquoise;
-    font-size: 18px;
+    margin-bottom: 0%;
+    color:white;
+    font-size: 20px;
+    /*border: 2px solid black;*/
 }
 #botaoFaleConosco{
-    background-color:deepskyblue;
+    background-color:darkblue;
     color: white;
     font-size: 20px;
     height:auto;
@@ -260,13 +262,15 @@ button:focus{
     color:white;
     float:right;
     margin-right: 2%;
-    color:darkturquoise;
+    color:black;
+    bottom: 0%;
 }
 #divForm{
     float: left;
+    margin-bottom: 0%;
 }
 .labelForm{
-    color:darkturquoise;
+    color:white;
 }
 /*------------------------------------------*/
 
