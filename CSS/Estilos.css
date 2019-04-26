@@ -2,11 +2,12 @@
 /*GERAL*/
 body{
     margin: 0;
-    background-image: url(../imagens/blue-ombre-wallpaper_5411909.jpg);
+    background-color:aliceblue;
+/*    background-image: url(../imagens/fundofrm.jpg);
     background-attachment: fixed;
-    background-position:top;
+    background-position:center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;*/
 } 
 .limparFloat{
     clear: both;
@@ -22,14 +23,14 @@ button:link, a:visited, a:active {
     text-decoration: none;
 }
 button:hover {
-    font-size:22px; 
+    font-size:35px; 
 }
 button{
     background-color:transparent; 
     color:white;
     width:auto;                 
     height:auto;
-    font-size: 18px;               
+    font-size: 30px;               
     font-family:serif;
     border: none;
 }
@@ -43,30 +44,33 @@ button:focus{
     float:right;
 }
 #botaoCasa{
-    width:25px;
+    width:30px;
 }
 .botoesMenu img{
     width:100%;
 }
 #divmenu{
-    background-image: url(../imagens/omagemMenu.jpg);
+/*    background-image: url(../imagens/omagemMenu.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
-    background-attachment:inherit;
+    background-attachment:inherit;*/
     /*height:100px;*/
     /*background-color:black;*/   
 }
 #divOlhos{
-    height:270px;
-    background-image: url(../imagens/olhos2.png);
+    height:600px;
+    background-image: url(../imagens/oftalmologia-adulta.jpg);
     background-position:center;
     background-repeat: no-repeat;
-    margin: 2%;
+    background-attachment: scroll;
+    background-size: 100%;
+    /*height: auto;*/
+    /*margin: 2%;*/
 }
 #BemVindo{
     color:white;
-    font-size:30px;
+    font-size:65px;
     text-align:center;
     /*margin-top:;*/
 }
@@ -224,18 +228,18 @@ button:focus{
 }
 #formulario{
     /*background-color:darkturquoise;*/
-    background-image: url(../imagens/omagemMenu.jpg);
+/* background-image: url(../imagens/fundofrm.jpg);
     background-repeat: no-repeat;
-    background-attachment:inherit;
+    background-attachment:fixed;
     background-position: center;
-    background-size: 100%;
+    background-size: 100%;*/
     padding: 1%;
     width:98%;
-    height:auto;
+    height:500px;
     position: absolute;
     margin-top:10%;
     margin-bottom: 0;
-    color:white;
+    color:darkturquoise;
     font-size: 18px;
 }
 #botaoFaleConosco{
@@ -256,13 +260,13 @@ button:focus{
     color:white;
     float:right;
     margin-right: 2%;
-    color:white;
+    color:darkturquoise;
 }
 #divForm{
     float: left;
 }
 .labelForm{
-    color: white;
+    color:darkturquoise;
 }
 /*------------------------------------------*/
 

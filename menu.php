@@ -1,7 +1,11 @@
 
 <header> 
 
-    <div id="divmenu" >
+  
+
+        <div id="divOlhos">
+            
+              <div id="divmenu" >
        
         <div class="botoesMenu"><a href="fiqueDeOlho.php"><button>Fique de Olho</button></a></div>
         <div class="botoesMenu"><a href="exames.php"><button>Exames</button></a></div>
@@ -12,7 +16,8 @@
                 
                 <div class="limparFloat"></div>
         </div>
-
-        <div id="divOlhos"></div>
+            
+            
+        </div>
 
 </header>
